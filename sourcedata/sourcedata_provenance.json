@@ -1,0 +1,2530 @@
+{
+ "dataset": "nm000265",
+ "moabb_class": "GuttmannFlury2025_MI",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.GuttmannFlury2025_MI.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-guttmannflury2025-data/MI",
+ "license": "CC0",
+ "doi": "10.1038/s41597-025-04861-9",
+ "naming": "upstream_filenames_restored",
+ "n_files": 503,
+ "total_bytes": 26198626035,
+ "files": [
+  {
+   "file": "S01/Sess01/MI011.bdf",
+   "bytes": 71902298,
+   "sha256": "055ea41430afda1b5a51ff990e2fba27d579fb49c2e1dffb87fca4e9b9b901f1"
+  },
+  {
+   "file": "S01/Sess01/MI011_annotations.json",
+   "bytes": 33023,
+   "sha256": "574fcebb87599a2b2f0700034df11dae0e51ed64e8c5caf1708a6d42f6248f46"
+  },
+  {
+   "file": "S01/Sess01/MI011_eprime.txt",
+   "bytes": 54272,
+   "sha256": "e53bbb136104434d877a253d576a7a21b68b56c6f6227dd2b5da38ee96a1657e"
+  },
+  {
+   "file": "S01/Sess01/MI011_phantom.avi",
+   "bytes": 372690314,
+   "sha256": "1df1754762e2994e3fb7644f7de75081ed46c70b644f0e636ab48a756d394ffe"
+  },
+  {
+   "file": "S01/Sess01/MI011_phantom.xml",
+   "bytes": 6123814,
+   "sha256": "3fed40286deb7bd556e470b95da9891daf18d0f8b72d150f0b60691aa4221205"
+  },
+  {
+   "file": "S01/Sess01/MI011_sync.csv",
+   "bytes": 7688474,
+   "sha256": "7d7ed8f198792a01689596b2424d208740b94c9baf2cff985012f8a36b4024dc"
+  },
+  {
+   "file": "S01/Sess01/MI011_tobii.csv",
+   "bytes": 33563489,
+   "sha256": "4912f2edc1e4b7e53fb8cc59867155c0c7acccac49cebcac2897e56c4b1b68aa"
+  },
+  {
+   "file": "S01/Sess01/S01_Sess01.xlsx",
+   "bytes": 8425,
+   "sha256": "e6d0794d5bb6a9f722c5878ea910cb2c94401a0e2eb7dd6aa4847523d9beaae0"
+  },
+  {
+   "file": "S02/Sess01/MI021.bdf",
+   "bytes": 74674718,
+   "sha256": "4b55372bc6d09e12273a3d386c76dd4f2a346c3fc1a94f0ffe522582a6af6ff2"
+  },
+  {
+   "file": "S02/Sess01/MI021_annotations.json",
+   "bytes": 33021,
+   "sha256": "48f35615336ed75be87c1ddda014cf3b30d225f369838d8eccba849bd8b97e9a"
+  },
+  {
+   "file": "S02/Sess01/MI021_eprime.txt",
+   "bytes": 54282,
+   "sha256": "7ad66dd215d9f6e6e0a553c3c2258750467ef299ef52eae03251d86d1f6f9d3d"
+  },
+  {
+   "file": "S02/Sess01/MI021_phantom.avi",
+   "bytes": 213432324,
+   "sha256": "89db732d5084f03b6921d254bc2d19d3307cf5b5e9ed22e8f17f2b79dc5cdf1f"
+  },
+  {
+   "file": "S02/Sess01/MI021_phantom.xml",
+   "bytes": 6117094,
+   "sha256": "71c877d0c5fbb9629f68d61cf7ab36bde1ce425d260f18c7792b071fd0982c8c"
+  },
+  {
+   "file": "S02/Sess01/MI021_sync.csv",
+   "bytes": 7921396,
+   "sha256": "ecc76ebd7b0aef37bf897002a2e57d4b615c38620d8ae21f6fa5f6dc4dd5620e"
+  },
+  {
+   "file": "S02/Sess01/MI021_tobii.csv",
+   "bytes": 36862686,
+   "sha256": "75bca9415d72dcbbc0e006fbb670decf530f61bc1ebe3930fdca4ef3369cbd9d"
+  },
+  {
+   "file": "S02/Sess01/S02_Sess01.xlsx",
+   "bytes": 8406,
+   "sha256": "3871a21f21bac856d5bdf66d99e6408e5f72118160709585eaee5e0edd881e5c"
+  },
+  {
+   "file": "S02/Sess02/MI022.bdf",
+   "bytes": 81407738,
+   "sha256": "6ce7381182ed67f56e6f1e41e27dbbd5f22e62ddadbab53bdfcc749c256a69ec"
+  },
+  {
+   "file": "S02/Sess02/MI022_annotations.json",
+   "bytes": 33018,
+   "sha256": "45ca90fd06bd23936ba40daa1d45edb1962ac655e9740e3aeb90d36508c03b91"
+  },
+  {
+   "file": "S02/Sess02/MI022_eprime.txt",
+   "bytes": 54284,
+   "sha256": "769facacf4dc4c9106bcd0430d3f300cd4d43f825048baa499933892ab0d9321"
+  },
+  {
+   "file": "S02/Sess02/MI022_phantom.avi",
+   "bytes": 251963318,
+   "sha256": "d10d820704b593882b24879426194301c00f562508fc842b7c30232a5bc4a4f7"
+  },
+  {
+   "file": "S02/Sess02/MI022_phantom.xml",
+   "bytes": 6224614,
+   "sha256": "21cbec309e06daca9533ca354c66cb50cb42f1092f5bbb9217a1221d36f5bdc1"
+  },
+  {
+   "file": "S02/Sess02/MI022_sync.csv",
+   "bytes": 8490615,
+   "sha256": "5ea0cd0e5c0704ad5dd645c5052c85a9a67d5700b9a6423c18d195a8f7a91afc"
+  },
+  {
+   "file": "S02/Sess02/MI022_tobii.csv",
+   "bytes": 40128840,
+   "sha256": "d31320fe135bb4e3637bcd765e90895f27621d3d9ee0dc7d4b1729af74276761"
+  },
+  {
+   "file": "S02/Sess02/S02_Sess02.xlsx",
+   "bytes": 8648,
+   "sha256": "baaf20c1d376b110e4bc7cc666e8504fb7e19f5a361648e10d224fd0ddddf90e"
+  },
+  {
+   "file": "S02/Sess03/MI023.bdf",
+   "bytes": 81605768,
+   "sha256": "060b34376a16db9b1ad77635c16c22ffd4e22e7168c82beac13018a8a2791daa"
+  },
+  {
+   "file": "S02/Sess03/MI023_annotations.json",
+   "bytes": 33025,
+   "sha256": "8e16473d465c96c6f8c0d8b51a639403567a60648123f9f2ac3f2a0746524071"
+  },
+  {
+   "file": "S02/Sess03/MI023_eprime.txt",
+   "bytes": 54198,
+   "sha256": "df5185498d14169d2e529078d22b7608c81a273b901b3bc68610085df1426d3a"
+  },
+  {
+   "file": "S02/Sess03/MI023_phantom.avi",
+   "bytes": 309428712,
+   "sha256": "5d1593c33eb2a9b9bbfbf6138e392092dfa462626744b11402a3052b66ac370e"
+  },
+  {
+   "file": "S02/Sess03/MI023_phantom.xml",
+   "bytes": 6050734,
+   "sha256": "ff701ce1418522fe414d59ec0fc04f4dc1249a7ecfe1cc341f3786cf2fd57e1f"
+  },
+  {
+   "file": "S02/Sess03/MI023_sync.csv",
+   "bytes": 8444962,
+   "sha256": "6886148f83622e584c50c44e0ddf24c08638820248526743cf1553dbecf2f020"
+  },
+  {
+   "file": "S02/Sess03/MI023_tobii.csv",
+   "bytes": 40675308,
+   "sha256": "8fe371f82491a2337eaf07a7a033b7190cfbfdd9b39056f17ce240f1e45e0049"
+  },
+  {
+   "file": "S02/Sess03/S02_Sess03.xlsx",
+   "bytes": 8431,
+   "sha256": "6e3e1f131f820cbf24998fe2bbbd001b06901cdfc251b46f08505197566f8296"
+  },
+  {
+   "file": "S03/Sess01/MI031.bdf",
+   "bytes": 73882598,
+   "sha256": "fbc6f8804b50e110a9f30964dd1c870d95f66c6a3feec5348e0a4555f81a0035"
+  },
+  {
+   "file": "S03/Sess01/MI031_annotations.json",
+   "bytes": 33012,
+   "sha256": "3075f1218e6add84819ae0e65623741365aa09768a31564bfeba6d07525c037c"
+  },
+  {
+   "file": "S03/Sess01/MI031_eprime.txt",
+   "bytes": 54014,
+   "sha256": "503b2aff9ed82260d207fa8947e3a485d74f924305e62e0168951e1c09b9d8c8"
+  },
+  {
+   "file": "S03/Sess01/MI031_phantom.avi",
+   "bytes": 206949574,
+   "sha256": "66760eb5f72ebbd9084902f1f38cbdc770ef3ae3564ca8a9265aa3a2827066d7"
+  },
+  {
+   "file": "S03/Sess01/MI031_phantom.xml",
+   "bytes": 6197004,
+   "sha256": "0e3a240514881651c06e1eed164c352ca774d8fc40318ec4ceef586718680ba2"
+  },
+  {
+   "file": "S03/Sess01/MI031_sync.csv",
+   "bytes": 7126151,
+   "sha256": "2ef49548bfb4fa8a5279e9266a1913f3320f7d7cd57cb3fbab0d71b62f0745e1"
+  },
+  {
+   "file": "S03/Sess01/MI031_tobii.csv",
+   "bytes": 32650466,
+   "sha256": "51a4f3d5d92cf14990f4c312f3c49af0a46cd4b4a235f19f5b9a4b81d15380c5"
+  },
+  {
+   "file": "S03/Sess01/S03_Sess01.xlsx",
+   "bytes": 8359,
+   "sha256": "c5da3c9dae5e9f3b3e09da7a9ab8cde8fea23abd3c19e919fcab6c8d91da4df2"
+  },
+  {
+   "file": "S03/Sess02/MI032.bdf",
+   "bytes": 73882598,
+   "sha256": "feadf77b881254afaa0a37b2438a470f97e5df57ea2fd077d3b9e08db53ebb2c"
+  },
+  {
+   "file": "S03/Sess02/MI032_annotations.json",
+   "bytes": 33018,
+   "sha256": "b3a37283d0d04cb1d4f60ae11b299bddc1248a231f93f68698f55da88f992b00"
+  },
+  {
+   "file": "S03/Sess02/MI032_eprime.txt",
+   "bytes": 54202,
+   "sha256": "1691af20dc8d2f3ab23d5e83f6ee0e2b38b6d551e888cef16a01e96a918ed4b4"
+  },
+  {
+   "file": "S03/Sess02/MI032_phantom.avi",
+   "bytes": 394350866,
+   "sha256": "9e6567ad9b058f800f3fb807bf51425e2e498e8740b8c1a9892e07a65edf09d4"
+  },
+  {
+   "file": "S03/Sess02/MI032_phantom.xml",
+   "bytes": 6189466,
+   "sha256": "4445869d1ce29a9ac446e3487241c11b778dac9b718034a616d1cf1efd09dad1"
+  },
+  {
+   "file": "S03/Sess02/MI032_sync.csv",
+   "bytes": 7862744,
+   "sha256": "2ae0280dd112f7c83bd630ec0bbef97ca40c9b208c14760cc13b4be37c69c885"
+  },
+  {
+   "file": "S03/Sess02/MI032_tobii.csv",
+   "bytes": 31890615,
+   "sha256": "a2656d5585e70578ba5e8d2aacf0a1956546bf70169343fe0905e55f6622598f"
+  },
+  {
+   "file": "S03/Sess02/S03_Sess02.xlsx",
+   "bytes": 8252,
+   "sha256": "9ae23fa2db9c1ff9e6388cbe9230caa90a55edc4ba38015c29f3388fbbf6c25d"
+  },
+  {
+   "file": "S03/Sess03/MI033.bdf",
+   "bytes": 72496388,
+   "sha256": "68b487a1b164e5081992a7303ee5fc1969284c44c7fd339995943e07a374cec6"
+  },
+  {
+   "file": "S03/Sess03/MI033_annotations.json",
+   "bytes": 33020,
+   "sha256": "9961f15a506900e36506162a782ab79d402891bdb358294f5ca9f009b6868606"
+  },
+  {
+   "file": "S03/Sess03/MI033_eprime.txt",
+   "bytes": 54274,
+   "sha256": "bb1e3d77125796261207db9c9d163c7387d32921a6bb9ca6e3bf12e136e7f72e"
+  },
+  {
+   "file": "S03/Sess03/MI033_phantom.avi",
+   "bytes": 316533456,
+   "sha256": "f86ea94450fa75942730242d97ba057164ada0c7b744ba61ed923b4fe848d2d9"
+  },
+  {
+   "file": "S03/Sess03/MI033_phantom.xml",
+   "bytes": 6059734,
+   "sha256": "93abf3c2dfecbf354710d20a58892fceb11a25532a9d04d69d7e90148d79ce2e"
+  },
+  {
+   "file": "S03/Sess03/MI033_sync.csv",
+   "bytes": 7727306,
+   "sha256": "9de7ec280a1e93997f5248091fb6187458e860b1ff8203654f2394c90ca4dd94"
+  },
+  {
+   "file": "S03/Sess03/MI033_tobii.csv",
+   "bytes": 33631539,
+   "sha256": "aeef63ae0afe6da74b735e08a38e23fb1c4f97240f95f68e953d26e6a6241ebd"
+  },
+  {
+   "file": "S03/Sess03/S03_Sess03.xlsx",
+   "bytes": 8370,
+   "sha256": "a258b98b73306801a31c85411983ad11c0e3437dc94b9de8c0876dd766f45191"
+  },
+  {
+   "file": "S04/Sess01/MI041.bdf",
+   "bytes": 78239258,
+   "sha256": "d1461ccb2a4e09409e3a061148bc437444a33a197cb009cbf397ae5b9972d5aa"
+  },
+  {
+   "file": "S04/Sess01/MI041_annotations.json",
+   "bytes": 33028,
+   "sha256": "b3bfa88ef8b63d5bf9aeb3f957a278308780db90e5fceff3d3fed6c64bb6ada5"
+  },
+  {
+   "file": "S04/Sess01/MI041_eprime.txt",
+   "bytes": 54200,
+   "sha256": "9d06c63265ae6bf020402430e4294adc7e37cd71583bb787058f01d4bf3a7c20"
+  },
+  {
+   "file": "S04/Sess01/MI041_phantom.avi",
+   "bytes": 390464728,
+   "sha256": "de6cb9aa27ae567eab99875a3183d0493cecbee05816bca25ffd660c917290ce"
+  },
+  {
+   "file": "S04/Sess01/MI041_phantom.xml",
+   "bytes": 6082654,
+   "sha256": "465cc76667569117460c729c04d8ff17336abeb8649e4187049488c989c27623"
+  },
+  {
+   "file": "S04/Sess01/MI041_sync.csv",
+   "bytes": 8190070,
+   "sha256": "6490e84a198671cdd37a4b7becc50bb0f0804174269eef683c57b545d371749a"
+  },
+  {
+   "file": "S04/Sess01/MI041_tobii.csv",
+   "bytes": 35014120,
+   "sha256": "7091e7dcafa5a5af478767703f0a6e0be680d2b42b4ca9ad7de40019c2f8c3e6"
+  },
+  {
+   "file": "S04/Sess01/S04_Sess01.xlsx",
+   "bytes": 8279,
+   "sha256": "a7d83cc71bc0e37f31ac055affd09a0304c118799ee28c7c1372d2bbbe8a7c23"
+  },
+  {
+   "file": "S04/Sess02/MI042.bdf",
+   "bytes": 75268808,
+   "sha256": "b60baedfdda404c68d56802eaf06eca696629b02bdfd4f7e6f88ad5d59d684a9"
+  },
+  {
+   "file": "S04/Sess02/MI042_annotations.json",
+   "bytes": 33009,
+   "sha256": "b98d98ab03c4b53a99516a9bcb828fa2fa4c7b023e044434a7241439cd62b150"
+  },
+  {
+   "file": "S04/Sess02/MI042_eprime.txt",
+   "bytes": 54274,
+   "sha256": "d9d03f2086494939bf9e9f8ac44785cc1dcfd3497a8a14bcf8b96f6091e734af"
+  },
+  {
+   "file": "S04/Sess02/MI042_phantom.avi",
+   "bytes": 344876922,
+   "sha256": "9a3ca606132232b340aa99e3a059b935fb3d1f40e3da2efb4471e8a48ab0a3f3"
+  },
+  {
+   "file": "S04/Sess02/MI042_phantom.xml",
+   "bytes": 6115414,
+   "sha256": "fa7e74ccd1f9a73af08e45a15ddd7a706065585870485a01e398a038cbce3d5e"
+  },
+  {
+   "file": "S04/Sess02/MI042_sync.csv",
+   "bytes": 7967128,
+   "sha256": "b6f3ee6cfb54eee12e4829145d5daf9d294634140db2600ed3692d25774dc940"
+  },
+  {
+   "file": "S04/Sess02/MI042_tobii.csv",
+   "bytes": 34633429,
+   "sha256": "ae763d31031a3d85d05bc6932a3c6344c0e8fa7fc244f8e925ff92b6e4ed55ec"
+  },
+  {
+   "file": "S04/Sess02/S04_Sess02.xlsx",
+   "bytes": 8378,
+   "sha256": "46622796a3eb3998967d31bb56240465b3f02167e676c14538cf5961456f160d"
+  },
+  {
+   "file": "S04/Sess03/MI043.bdf",
+   "bytes": 74080628,
+   "sha256": "70002474111aa488df0f92b96f3efa917d850b23b80945cf10c576ee09dac9d1"
+  },
+  {
+   "file": "S04/Sess03/MI043_annotations.json",
+   "bytes": 33021,
+   "sha256": "e39cc98c93681267602ee91cb2c82730ac77c2a052dcf01182a147fc865cf505"
+  },
+  {
+   "file": "S04/Sess03/MI043_eprime.txt",
+   "bytes": 54198,
+   "sha256": "2e12f8d86646778ffe0f5e015b0ef684b843378587f4e0c2a4e8bf220ed3b4e2"
+  },
+  {
+   "file": "S04/Sess03/MI043_phantom.avi",
+   "bytes": 289773156,
+   "sha256": "240a2f445dbf88e59daa3a8e85c50c048bc5af77a03ab4921dc4239ba447af81"
+  },
+  {
+   "file": "S04/Sess03/MI043_phantom.xml",
+   "bytes": 6063933,
+   "sha256": "11f8ec1338c07d680f8b002b664d50ccb41e37b536bba6d48c63ae1ee0c0f857"
+  },
+  {
+   "file": "S04/Sess03/MI043_sync.csv",
+   "bytes": 7846879,
+   "sha256": "5c5dde3f1a2ba859493b26f57c1f401cd4fe719c9cbce8e55e73aefa46a9dd02"
+  },
+  {
+   "file": "S04/Sess03/MI043_tobii.csv",
+   "bytes": 37045289,
+   "sha256": "86ad408d8d5eb176aaf4c4bcc218a74cd6a812d78ba7a593deac4f2204db3ceb"
+  },
+  {
+   "file": "S04/Sess03/S04_Sess03.xlsx",
+   "bytes": 8413,
+   "sha256": "eaa4b491c478c244774cfe3373573dc65fcf276d548ed8a10300b8b39fc038cb"
+  },
+  {
+   "file": "S05/Sess01/MI051.bdf",
+   "bytes": 72892448,
+   "sha256": "21655bd3d7f415102851796ea950737907849e9fd9f2914997cb98a032064951"
+  },
+  {
+   "file": "S05/Sess01/MI051_annotations.json",
+   "bytes": 33027,
+   "sha256": "f7073f8b6dd2f4f4f24916ef9a9dbf215e5ae640492efeedbd710361b549c864"
+  },
+  {
+   "file": "S05/Sess01/MI051_eprime.txt",
+   "bytes": 54282,
+   "sha256": "05798b77fa63fae8b63a460217a5b70ea1207ab9cbb7dfdc97507bf075787653"
+  },
+  {
+   "file": "S05/Sess01/MI051_phantom.avi",
+   "bytes": 223156888,
+   "sha256": "579f3c70fb53392a2883d7a9e4f5d8a04aa2f90a5b9f39fb0f53272240b816a6"
+  },
+  {
+   "file": "S05/Sess01/MI051_phantom.xml",
+   "bytes": 6040894,
+   "sha256": "307e284db02b07ae8560cf282873424c56f4f760ec2d16e7d7bc668f2cebcad3"
+  },
+  {
+   "file": "S05/Sess01/MI051_sync.csv",
+   "bytes": 7750339,
+   "sha256": "5500115c1f62dbf55d87bd1fe6b0f7a99ecf4d8c6d298336a5041f7ab5d94818"
+  },
+  {
+   "file": "S05/Sess01/MI051_tobii.csv",
+   "bytes": 36110780,
+   "sha256": "cda6e7947feaa8706ce4f5f140d290f9dc0a21924feebab5d19d28632c34c526"
+  },
+  {
+   "file": "S05/Sess01/S05_Sess01.xlsx",
+   "bytes": 8337,
+   "sha256": "3372d8cbd66954af1964198fa9c1f4243a0ef6e65327d4d7c1c04dde4f090e0f"
+  },
+  {
+   "file": "S05/Sess02/MI052.bdf",
+   "bytes": 72892448,
+   "sha256": "50d2e23394d7c89cf5e1fb5f54eab5ce2f74f0b0e1b0cceafe99cb058053578b"
+  },
+  {
+   "file": "S05/Sess02/MI052_annotations.json",
+   "bytes": 33002,
+   "sha256": "92ed3f4a2a11ee81f3ca95b03853388c43918a1dc5d12939c76972c5051472f9"
+  },
+  {
+   "file": "S05/Sess02/MI052_eprime.txt",
+   "bytes": 54276,
+   "sha256": "6c763c5a53dd43a5502e14253707c4d5c47a737c52dd05492f252874a6e9c584"
+  },
+  {
+   "file": "S05/Sess02/MI052_phantom.avi",
+   "bytes": 249415768,
+   "sha256": "427d8b056dee0b852613e5d624fe44b16069c8a69659d5a462130808c9764a8a"
+  },
+  {
+   "file": "S05/Sess02/MI052_phantom.xml",
+   "bytes": 6074734,
+   "sha256": "6a0e1bc68125fe17c2ebece690adc93121a6004755eb7c8e2ce7ed83677f7f71"
+  },
+  {
+   "file": "S05/Sess02/MI052_sync.csv",
+   "bytes": 7755180,
+   "sha256": "71eae8a6da641bc62a91e9e8605a51266a6eb91be38945b30e64baff8d171064"
+  },
+  {
+   "file": "S05/Sess02/MI052_tobii.csv",
+   "bytes": 34419311,
+   "sha256": "9e3800e9a366889bbb86188db91294d91d1c3c9c3640612168a8b92043186529"
+  },
+  {
+   "file": "S05/Sess02/S05_Sess02.xlsx",
+   "bytes": 8408,
+   "sha256": "99d28ee9e68b1c505e2aa83c7d7c5bb0875b8955822eee4b5aaa6579302e9066"
+  },
+  {
+   "file": "S05/Sess03/MI053.bdf",
+   "bytes": 73882598,
+   "sha256": "ddcfc7abbac4b104cafde3004fa73973e4a9adb89a3a54e26e52ceba1a1567f3"
+  },
+  {
+   "file": "S05/Sess03/MI053_annotations.json",
+   "bytes": 33031,
+   "sha256": "db13c0514de529e1d128efb094ef1601c59349a885ee716d970d3b8a3601d3e2"
+  },
+  {
+   "file": "S05/Sess03/MI053_eprime.txt",
+   "bytes": 54280,
+   "sha256": "ba6b7ec50275a024f09226e562632eff463404b89618af90f1071b9c19675d7e"
+  },
+  {
+   "file": "S05/Sess03/MI053_phantom.avi",
+   "bytes": 225238968,
+   "sha256": "d134e72e314910a46204a72259cbff5a36d63ebbf6fc830877399250dacc7e0b"
+  },
+  {
+   "file": "S05/Sess03/MI053_phantom.xml",
+   "bytes": 6061174,
+   "sha256": "53d29c037c24e14843b5630fa8e2765f491bdb8220cad86c8375308ecf44624a"
+  },
+  {
+   "file": "S05/Sess03/MI053_sync.csv",
+   "bytes": 7831225,
+   "sha256": "0173a347f3241e5e166b83dfaef62eb86b477cdde257922ec7572a8b8d37fc99"
+  },
+  {
+   "file": "S05/Sess03/MI053_tobii.csv",
+   "bytes": 38485718,
+   "sha256": "dfc07c0af006bb20ff1b3b669210ee00e99ee24139c33035bc32d2afb677117e"
+  },
+  {
+   "file": "S05/Sess03/S05_Sess03.xlsx",
+   "bytes": 8479,
+   "sha256": "92687347b8f2e2bda9dcbd8a126a5378023bb037fc20d34b0f5fffc18b441c10"
+  },
+  {
+   "file": "S06/Sess01/MI061.bdf",
+   "bytes": 73090478,
+   "sha256": "3fc929d84d7aacfcb0c94e59d20e2fa8951c4a1a22168059c149db20adeffecc"
+  },
+  {
+   "file": "S06/Sess01/MI061_annotations.json",
+   "bytes": 33013,
+   "sha256": "ae494323b0ee32dd3d56f1a0a58e9551e47384343f810ab40e2c93bebd2276d7"
+  },
+  {
+   "file": "S06/Sess01/MI061_eprime.txt",
+   "bytes": 54276,
+   "sha256": "55f0bda2bc15f6fd2da3f4eb7e8d3ba99eb1b3dcedc4b9d6f5b0ff2acac2fdf0"
+  },
+  {
+   "file": "S06/Sess01/MI061_phantom.avi",
+   "bytes": 263904616,
+   "sha256": "ce19d283d68a6e1a981125fdfdec246f3c4473663fab9e231cd287c0d3c59670"
+  },
+  {
+   "file": "S06/Sess01/MI061_phantom.xml",
+   "bytes": 6056014,
+   "sha256": "7346a5d17a9a19c76a0087f2f597e8031649b0a0aed38b78510f73b58311c231"
+  },
+  {
+   "file": "S06/Sess01/MI061_sync.csv",
+   "bytes": 7026422,
+   "sha256": "622f544d81bff1fee05e0da78e2f076fb583bc17e698ce82da1871c265a0e06b"
+  },
+  {
+   "file": "S06/Sess01/MI061_tobii.csv",
+   "bytes": 33724525,
+   "sha256": "126eff8a642fe8c1a9637514c833b19dd2bb3f4b342f9be08b1edda6ed764159"
+  },
+  {
+   "file": "S06/Sess01/S06_Sess01.xlsx",
+   "bytes": 8444,
+   "sha256": "77ebb4b8a7b85418f9999d240497d2ec85155ced3e96b916b2ad110e34644eec"
+  },
+  {
+   "file": "S07/Sess01/MI071.bdf",
+   "bytes": 76655018,
+   "sha256": "161d358ee4cb932592670185f21898a8a9585cb9471e531c993c5a7b95b2d033"
+  },
+  {
+   "file": "S07/Sess01/MI071_annotations.json",
+   "bytes": 33021,
+   "sha256": "53fed27b109c1f240bd232735e79e3877d9841de512e24c4beda7e20f7276f78"
+  },
+  {
+   "file": "S07/Sess01/MI071_eprime.txt",
+   "bytes": 54284,
+   "sha256": "2b963b0e3598788494a346b03311da36452cb084c5c9a8bd06cb928858e21ac8"
+  },
+  {
+   "file": "S07/Sess01/MI071_phantom.avi",
+   "bytes": 220651918,
+   "sha256": "181b62e6edc2828f48459702ac1a39846cdfc149bd150f1fe62fd8e6bbefda5a"
+  },
+  {
+   "file": "S07/Sess01/MI071_phantom.xml",
+   "bytes": 6064054,
+   "sha256": "dc85895b48f496de4e5d388879d8d0e4a3e333a3a00304a0863f683f30e846ae"
+  },
+  {
+   "file": "S07/Sess01/MI071_sync.csv",
+   "bytes": 8057240,
+   "sha256": "400d4f3c411811c311e2fb7d09450dbc0ca3db9922a61247eb5277f2b5aca44b"
+  },
+  {
+   "file": "S07/Sess01/MI071_tobii.csv",
+   "bytes": 34143005,
+   "sha256": "146fb5de747c02406572a5d15d40d67a0ecb673ccc3d64eaf1a59af2f5978903"
+  },
+  {
+   "file": "S07/Sess01/S07_Sess01.xlsx",
+   "bytes": 8358,
+   "sha256": "741df979c5f8f583ea1b3a5458d5c55385808a0eb28c9a9f914752356e58d1be"
+  },
+  {
+   "file": "S07/Sess02/MI072.bdf",
+   "bytes": 75466838,
+   "sha256": "9e906e17d48bd225264d14c0f89312eab169187e3fe6ca64f9f7271d152478ae"
+  },
+  {
+   "file": "S07/Sess02/MI072_annotations.json",
+   "bytes": 33025,
+   "sha256": "db734a3c3ff178153235811c81c0e29c4356f907a7f789b95dcdb6c1206cf534"
+  },
+  {
+   "file": "S07/Sess02/MI072_eprime.txt",
+   "bytes": 54206,
+   "sha256": "95f1048216fa0c05f6163fffa7d211c976bd01511c879906c27ce3ccfd1d8833"
+  },
+  {
+   "file": "S07/Sess02/MI072_phantom.avi",
+   "bytes": 236949552,
+   "sha256": "8a3057d6aa51b0b070789f4a0651433d2f5ecd4372baf05a659b157d3f57e987"
+  },
+  {
+   "file": "S07/Sess02/MI072_phantom.xml",
+   "bytes": 6072454,
+   "sha256": "71762221a60493997058117bd8988d5fd88e2a06bba9415462d9ca8e0a4d75fb"
+  },
+  {
+   "file": "S07/Sess02/MI072_sync.csv",
+   "bytes": 7959830,
+   "sha256": "f002efad81ff170eab9bde646bed34cc2bcf74ec727b8ff16ad9560695768eb5"
+  },
+  {
+   "file": "S07/Sess02/MI072_tobii.csv",
+   "bytes": 41359006,
+   "sha256": "35b1b53e0119a512cd57a3d123ceb03d2755bca09767c61e1796ce9c74671f75"
+  },
+  {
+   "file": "S07/Sess02/S07_Sess02.xlsx",
+   "bytes": 8355,
+   "sha256": "b565d99f4efbad7040c98d87c07a13b418806376969db91dbba957cb249c9362"
+  },
+  {
+   "file": "S07/Sess03/MI073.bdf",
+   "bytes": 73882598,
+   "sha256": "d4a269877da80e20490ebf56402b480243de737aa4c4504d71e160df9f96d963"
+  },
+  {
+   "file": "S07/Sess03/MI073_annotations.json",
+   "bytes": 33028,
+   "sha256": "c50d5ee1bf1ddf4819576675bbb4d51237048701889525439ea90818b38998bd"
+  },
+  {
+   "file": "S07/Sess03/MI073_eprime.txt",
+   "bytes": 54264,
+   "sha256": "a8d96dcebddf6b4e771ac3643ab9c4f154a903ff67032b5dc6aa3977b70fc114"
+  },
+  {
+   "file": "S07/Sess03/MI073_phantom.avi",
+   "bytes": 303079344,
+   "sha256": "6e17f7835c4c92b19f2ce1da5be18e2da02de7abfc5f68d39280b80a76cd8d0d"
+  },
+  {
+   "file": "S07/Sess03/MI073_phantom.xml",
+   "bytes": 6214174,
+   "sha256": "c7ae9c665ea8516922e6f8fe44f2f02e6fbb7c57f4e5ef28784f724328161d26"
+  },
+  {
+   "file": "S07/Sess03/MI073_sync.csv",
+   "bytes": 7885196,
+   "sha256": "e516c2a12178f3d620c0208f36a23742671b33c1ed9a585cd41864813063121b"
+  },
+  {
+   "file": "S07/Sess03/MI073_tobii.csv",
+   "bytes": 38808760,
+   "sha256": "cb2b377e2e538d5012f3d11f233710efd16a7bc72746e9f941775ffe1eb5b5cc"
+  },
+  {
+   "file": "S07/Sess03/S07_Sess03.xlsx",
+   "bytes": 8417,
+   "sha256": "d9548f7f4c37ba770560f431d2e92afbe256f01d15995bc86d12634657d1eb8b"
+  },
+  {
+   "file": "S08/Sess01/MI081bis.bdf",
+   "bytes": 73882598,
+   "sha256": "d9b5b66fb18b62f3178e41f28610acb71fdc886d92c411973b0db6fe432cda49"
+  },
+  {
+   "file": "S08/Sess01/MI081bis_annotations.json",
+   "bytes": 33022,
+   "sha256": "23b9f562715a2bb862ed8c4fcd7ae19c8a3317cf288b29b44beccceb08855efe"
+  },
+  {
+   "file": "S08/Sess01/MI081bis_eprime.txt",
+   "bytes": 54274,
+   "sha256": "c0d5c28d2f8a79c35929e2e4859dfcfebdc5e05b186f930ef1060719faedcf97"
+  },
+  {
+   "file": "S08/Sess01/MI081bis_phantom.avi",
+   "bytes": 241892700,
+   "sha256": "8ea39ffef27af6f968fbb76f96035c8d264265af713589af29547ba50882623b"
+  },
+  {
+   "file": "S08/Sess01/MI081bis_phantom.xml",
+   "bytes": 6170373,
+   "sha256": "ec505b2e58319d9a6e4d29bf3914ac3c5bf181dbeb4145a3595eefaea985c281"
+  },
+  {
+   "file": "S08/Sess01/MI081bis_sync.csv",
+   "bytes": 7872589,
+   "sha256": "7c39f71c3a627bfee7ac2b75d839681d58478a4c455884b921bb463c50196680"
+  },
+  {
+   "file": "S08/Sess01/MI081bis_tobii.csv",
+   "bytes": 31685347,
+   "sha256": "85fc2471dad071ad21f16137663c297083259356bc68d56c0c7ff777d846ecde"
+  },
+  {
+   "file": "S08/Sess01/S08_Sess01.xlsx",
+   "bytes": 8463,
+   "sha256": "1950fc4e39f25d05e8fd63ae317db13a569b88cb89d037c88d54a11b46e1ca06"
+  },
+  {
+   "file": "S08/Sess02/MI082.bdf",
+   "bytes": 74872748,
+   "sha256": "ad938bd22727ac2f295d0415dbc7e3b24c541e6bdebfc39840448eca4f8310d6"
+  },
+  {
+   "file": "S08/Sess02/MI082_annotations.json",
+   "bytes": 33032,
+   "sha256": "957ab62d8867a98826b4b3df8b0de8092b418928ab7ace2d51f3cba1c0bef1e0"
+  },
+  {
+   "file": "S08/Sess02/MI082_eprime.txt",
+   "bytes": 54282,
+   "sha256": "02e63ba29e5a6d53a01b564b44a99e3f97afea8566f26c3bd324094ecad1b936"
+  },
+  {
+   "file": "S08/Sess02/MI082_phantom.avi",
+   "bytes": 203456820,
+   "sha256": "478f84a31ff77910a25e1894fab156cc7af208b5e497411eb5712d60751d7194"
+  },
+  {
+   "file": "S08/Sess02/MI082_phantom.xml",
+   "bytes": 6130654,
+   "sha256": "dd84faa2acaa49206fbc112263bf778a50b3cb6a94f63c3a762f9dc77af537d6"
+  },
+  {
+   "file": "S08/Sess02/MI082_sync.csv",
+   "bytes": 7935108,
+   "sha256": "b3a4a69326395aac6c1eee0b07e309871c4f7940772a33a9d51d6e4e8d55fedd"
+  },
+  {
+   "file": "S08/Sess02/MI082_tobii.csv",
+   "bytes": 30913500,
+   "sha256": "74ab5574dca3374ada6cbe764fb33fa470297fe21c14e097ef49408660c2be27"
+  },
+  {
+   "file": "S08/Sess02/S08_Sess02.xlsx",
+   "bytes": 8420,
+   "sha256": "358308cf4cff5368a1d9652bc7c58a73e2e95887bbfe4c291dc613e02cb3e278"
+  },
+  {
+   "file": "S08/Sess03/MI083.bdf",
+   "bytes": 72892448,
+   "sha256": "89ac7ad214fd97bf6b0cf63d623d71f0d7d76a3c08bc8873b28277b2c6132a77"
+  },
+  {
+   "file": "S08/Sess03/MI083_annotations.json",
+   "bytes": 33025,
+   "sha256": "416fb2b97ae26764f4c1bc0227045def736ee98211079a0088068a58ec30a958"
+  },
+  {
+   "file": "S08/Sess03/MI083_eprime.txt",
+   "bytes": 54280,
+   "sha256": "6dcd3f83ee43bda95faca803e0ba876e82eab5bd1a9c63fdd7bdf1c0e7d20201"
+  },
+  {
+   "file": "S08/Sess03/MI083_phantom.avi",
+   "bytes": 271558542,
+   "sha256": "3195d201fd1605a283e91937c5de2b5c586c252c2a3b5b637fc6fdbf02b8139d"
+  },
+  {
+   "file": "S08/Sess03/MI083_phantom.xml",
+   "bytes": 6038374,
+   "sha256": "e96c17a1e38e42684157e1edc79fe7df71eb33b9e545b8dc106a135140a4b203"
+  },
+  {
+   "file": "S08/Sess03/MI083_sync.csv",
+   "bytes": 7746061,
+   "sha256": "1ffe21e6c4e4a82696fcdd36c7a2305fbc9b2969cc72fd89d0274fda1ebc8caa"
+  },
+  {
+   "file": "S08/Sess03/MI083_tobii.csv",
+   "bytes": 31459760,
+   "sha256": "0de8e5f9f8066c893e311bef252cce735553a80630c218aa90f048354da419c8"
+  },
+  {
+   "file": "S08/Sess03/S08_Sess03.xlsx",
+   "bytes": 8345,
+   "sha256": "f93b80a65abb6b174d72a42380068d18e1925171a434a43458543994c0ddbf8c"
+  },
+  {
+   "file": "S09/Sess01/MI091bis.bdf",
+   "bytes": 71308208,
+   "sha256": "fe653bbc7c59e3b6ddae38a89bd1f3d407422395e37d1ee3ae5e91b9e9e7fc77"
+  },
+  {
+   "file": "S09/Sess01/MI091bis_annotations.json",
+   "bytes": 33026,
+   "sha256": "ea02e368834f5d012317e024d3cabf4df16ee571abec7493c7fa8f83fee40fd3"
+  },
+  {
+   "file": "S09/Sess01/MI091bis_eprime.txt",
+   "bytes": 54202,
+   "sha256": "21b342d7bb9b3ddac2fd6bb81c3783c031628d46caa7dae22f64f14f5588c827"
+  },
+  {
+   "file": "S09/Sess01/MI091bis_phantom.avi",
+   "bytes": 331235490,
+   "sha256": "3502d2e466eed33b6601312343f008295e012cce21bbb0a865b0dfff39e16081"
+  },
+  {
+   "file": "S09/Sess01/MI091bis_phantom.xml",
+   "bytes": 5820574,
+   "sha256": "d5c328f1e9d902d0528f7dd45bee33caf7401dd41594c40cb6098a03a620e1e1"
+  },
+  {
+   "file": "S09/Sess01/MI091bis_sync.csv",
+   "bytes": 7558569,
+   "sha256": "eb8ffe24321b2849f86ca1d908e2030757c640270499f987df2905d6e2fd6740"
+  },
+  {
+   "file": "S09/Sess01/MI091bis_tobii.csv",
+   "bytes": 32386622,
+   "sha256": "5519fc2d5d2ea9662d7fa11e8d171022e1bcc583b61391dd3af52d7612e74d8d"
+  },
+  {
+   "file": "S09/Sess01/S09_Sess01.xlsx",
+   "bytes": 8479,
+   "sha256": "0a3db08d5f4020519be18976067312f011704062e923fe5893b6f296240f00d5"
+  },
+  {
+   "file": "S09/Sess02/MI092.bdf",
+   "bytes": 74872748,
+   "sha256": "d19dfaaef9980f57c49fd6313fb2bb02d107883d2bf7b45c0d019b18b4d08410"
+  },
+  {
+   "file": "S09/Sess02/MI092_annotations.json",
+   "bytes": 33026,
+   "sha256": "8c9237b3ae8d2ee4dffe10a521685883e7ce91ad37dd64a5300420502fe35d39"
+  },
+  {
+   "file": "S09/Sess02/MI092_eprime.txt",
+   "bytes": 54200,
+   "sha256": "e18d0cdcc211499a99b316ac833a7188b8fa5c8b50fb89965afb2c587dec63eb"
+  },
+  {
+   "file": "S09/Sess02/MI092_phantom.avi",
+   "bytes": 264414260,
+   "sha256": "cffc64cea1432420c986344b7d5632415f9ddfc31ee2fc397ba84daa6beb4893"
+  },
+  {
+   "file": "S09/Sess02/MI092_phantom.xml",
+   "bytes": 6095014,
+   "sha256": "1c03cf8c93146428f1960aeddea3b4089d6a65da66dbe738245b807e99fec909"
+  },
+  {
+   "file": "S09/Sess02/MI092_sync.csv",
+   "bytes": 7923780,
+   "sha256": "e259109e2b5bdeb67dbdc8dedee8ef54c78859c336ea457e06f466108fd03c06"
+  },
+  {
+   "file": "S09/Sess02/MI092_tobii.csv",
+   "bytes": 33709448,
+   "sha256": "7a996a72c10af027e41d478d3fa52002fcceb27ade7f80291dcbb87f6d79b4a3"
+  },
+  {
+   "file": "S09/Sess02/S09_Sess02.xlsx",
+   "bytes": 8474,
+   "sha256": "ba332ea6b21d6dc91e2f0ed5b7ceb3ff4a4ba9538d071b00c74d8e3ebbc9488f"
+  },
+  {
+   "file": "S09/Sess03/MI093.bdf",
+   "bytes": 72100328,
+   "sha256": "233ab02e6d84304567888ad616cd903714fe644e976974bd61530c1ad3f53704"
+  },
+  {
+   "file": "S09/Sess03/MI093_annotations.json",
+   "bytes": 33028,
+   "sha256": "3090e15dda497adcbd02945e57b6b6ea4c9c316109a3fee72acc27810d5db4f6"
+  },
+  {
+   "file": "S09/Sess03/MI093_eprime.txt",
+   "bytes": 54198,
+   "sha256": "4010ce15d2d072298379063230e04f1bb2b2888e465cf03815f3442a69ed3d89"
+  },
+  {
+   "file": "S09/Sess03/MI093_phantom.avi",
+   "bytes": 445596594,
+   "sha256": "4872573e14f5434fa0062da5805740e8080f244a7786b3fd2d9ac115b4e4caec"
+  },
+  {
+   "file": "S09/Sess03/MI093_phantom.xml",
+   "bytes": 5957629,
+   "sha256": "05e0234b1b48113106db1c9dec03f5e21439ba031588ded9fb5d0c6221ff3043"
+  },
+  {
+   "file": "S09/Sess03/MI093_sync.csv",
+   "bytes": 7633013,
+   "sha256": "d8e40f44a3364301b9ea645fee2decc154a74a67666160c1a9a1c5d87b13d5c4"
+  },
+  {
+   "file": "S09/Sess03/MI093_tobii.csv",
+   "bytes": 33127533,
+   "sha256": "e31dd7d8f8418809984be8d0223455f070b3a0100ab1e7adb1c1ab28164333ac"
+  },
+  {
+   "file": "S09/Sess03/S09_Sess03.xlsx",
+   "bytes": 8392,
+   "sha256": "6e42463d8b16eb91dcf28660148f893b27f59dc2012dd381296e5a6dd62b2dbb"
+  },
+  {
+   "file": "S10/Sess01/MI101.bdf",
+   "bytes": 72298358,
+   "sha256": "85d731cbac2ab4747219f2637a3b4d04653408ece207237662f338b23e0ab415"
+  },
+  {
+   "file": "S10/Sess01/MI101_annotations.json",
+   "bytes": 33028,
+   "sha256": "1804485c4b213f80ebbc0b43bacd6f18f8dc924d8cc7de90e517690864b3d467"
+  },
+  {
+   "file": "S10/Sess01/MI101_eprime.txt",
+   "bytes": 54282,
+   "sha256": "4c86d886bd3e6d15e0b240e3c0d25e0ccb9b116eac4910e11c846f3c2a88006d"
+  },
+  {
+   "file": "S10/Sess01/MI101_phantom.avi",
+   "bytes": 236657166,
+   "sha256": "aef2220632aa4b6a876a07c0d47a5241718978caee196bc6fb8cc108f6d07c3d"
+  },
+  {
+   "file": "S10/Sess01/MI101_phantom.xml",
+   "bytes": 6034534,
+   "sha256": "682e5dbca095f63239a8eb4567471b0d2d25a4aa21487e181a2b701c732c41e8"
+  },
+  {
+   "file": "S10/Sess01/MI101_sync.csv",
+   "bytes": 7695384,
+   "sha256": "0a2efc88a5c7fead84d823521868a402f955892068e3f05ef67577d010d8f3f9"
+  },
+  {
+   "file": "S10/Sess01/MI101_tobii.csv",
+   "bytes": 36284578,
+   "sha256": "e0a2179bb13892fb60279ed237114ab7dd1a0082cbdb91ceab20c301712523e8"
+  },
+  {
+   "file": "S10/Sess01/S10_Sess01.xlsx",
+   "bytes": 8398,
+   "sha256": "996babc4cba9687a6deeeb6fa40a54e7ad96249dc4fd94ba74459419cc117a7d"
+  },
+  {
+   "file": "S10/Sess02/MI102.bdf",
+   "bytes": 91111208,
+   "sha256": "764505e8a7b0814433af91c2d6241c6b97e4c2ab13bbfe01de962df87506f9d4"
+  },
+  {
+   "file": "S10/Sess02/MI102_annotations.json",
+   "bytes": 33021,
+   "sha256": "41ba511a785396c977a653f941254b8ad1e547f74685170083166542383e1b03"
+  },
+  {
+   "file": "S10/Sess02/MI102_eprime.txt",
+   "bytes": 54292,
+   "sha256": "dd59338aa899325d38d85b52cf75910a9a53e1c278d313e06f2c60e5e3dd80e9"
+  },
+  {
+   "file": "S10/Sess02/MI102_phantom.avi",
+   "bytes": 356518730,
+   "sha256": "316ad7ec6b676f3797a6c32719572129f0f136a26db01feea8cba368e1d4f06a"
+  },
+  {
+   "file": "S10/Sess02/MI102_phantom.xml",
+   "bytes": 6118774,
+   "sha256": "656aa33a1120dedf63e2f844d9d563cdbe8ace3b3a69e4820daf565eeb27fe52"
+  },
+  {
+   "file": "S10/Sess02/MI102_sync.csv",
+   "bytes": 9235729,
+   "sha256": "c7aadfc054b05f263da00963069d4ef0799afcfc35998f08e061a745826a10c3"
+  },
+  {
+   "file": "S10/Sess02/MI102_tobii.csv",
+   "bytes": 35648037,
+   "sha256": "bd404aa2da37dbf36e71fa921473582426d89fa0353867e5d67ff3a365795c03"
+  },
+  {
+   "file": "S10/Sess02/S10_Sess02.xlsx",
+   "bytes": 8404,
+   "sha256": "2723773123509735b7d46bf4911c46be69188571f76254dcf239cf154692c93f"
+  },
+  {
+   "file": "S11/Sess01/MI111.bdf",
+   "bytes": 72100328,
+   "sha256": "b3a3665b8126c03daa66c3e536f1d13d65f756bb14fa0d01a3be96b4a3d9423d"
+  },
+  {
+   "file": "S11/Sess01/MI111_annotations.json",
+   "bytes": 33010,
+   "sha256": "59f16f3c19226c1f87cebde4b4a378fa1b8f1c42cd43cb4ec552a08ae3646786"
+  },
+  {
+   "file": "S11/Sess01/MI111_eprime.txt",
+   "bytes": 54286,
+   "sha256": "f9819d12401c1080fba590977156a481a6ef3240116267004398488aefa0d1a2"
+  },
+  {
+   "file": "S11/Sess01/MI111_phantom.avi",
+   "bytes": 369017440,
+   "sha256": "c4c5921b55e5d8c56f38c97615b89a81c11058ccede29c2431c6666acd1311fe"
+  },
+  {
+   "file": "S11/Sess01/MI111_phantom.xml",
+   "bytes": 6040414,
+   "sha256": "18ef73b5ef28ed884b99079483990da37ca4a5475cf49047c951f8f076a1bf1e"
+  },
+  {
+   "file": "S11/Sess01/MI111_sync.csv",
+   "bytes": 7687621,
+   "sha256": "dce00e009fa7bfccc9554fc93852c11db665d3e8a0fe27d8f25a7d4944a22672"
+  },
+  {
+   "file": "S11/Sess01/MI111_tobii.csv",
+   "bytes": 36065213,
+   "sha256": "94ef4c1080419911828cbac14b2d6ef67d3d2bf2c4599843a572dcc8dc0b0250"
+  },
+  {
+   "file": "S11/Sess01/S11_Sess01.xlsx",
+   "bytes": 8407,
+   "sha256": "a141a26ec0514b7712863b8a94ada2af16a11f3f5f0cd1dd6dece8ab07608e37"
+  },
+  {
+   "file": "S12/Sess01/MI121.bdf",
+   "bytes": 77249108,
+   "sha256": "5db5b5366b19eb2ffc79dd417b15670bcfcb8671c88357c7fc2784f476336a54"
+  },
+  {
+   "file": "S12/Sess01/MI121_annotations.json",
+   "bytes": 33030,
+   "sha256": "3f8074750a5824c9c4f702174baf6a457b0d94a5be3072007483cc757f19c625"
+  },
+  {
+   "file": "S12/Sess01/MI121_eprime.txt",
+   "bytes": 54286,
+   "sha256": "fb22121481a1d75abdce91334a15741004ef6c8b6496a52f6f6f27922641bfc7"
+  },
+  {
+   "file": "S12/Sess01/MI121_phantom.avi",
+   "bytes": 266170720,
+   "sha256": "df2ec3e9f39c85066ff1ba0ae83d8af1cb0e235160d82b0b6492e9f18b630555"
+  },
+  {
+   "file": "S12/Sess01/MI121_phantom.xml",
+   "bytes": 6057814,
+   "sha256": "24430aa84845f9fff06d9f33dc86ba28045ba82ceab6b615bb5870f54e37da9b"
+  },
+  {
+   "file": "S12/Sess01/MI121_sync.csv",
+   "bytes": 8107046,
+   "sha256": "8797f66dd006c3d6e61ca6a7ab646830685823cf20435ae6515fc88406a6ab85"
+  },
+  {
+   "file": "S12/Sess01/MI121_tobii.csv",
+   "bytes": 42095892,
+   "sha256": "8c51b1fd56e2a4706b29abe58e5e38f51c4224a93dc51af5ac62e29ce7009e25"
+  },
+  {
+   "file": "S12/Sess01/S12_Sess01.xlsx",
+   "bytes": 8396,
+   "sha256": "ca678f5f4e6e2f537d15d347348f130457bd1df87e6310c089c1f3cf70dab1e1"
+  },
+  {
+   "file": "S12/Sess02/MI122.bdf",
+   "bytes": 73288508,
+   "sha256": "999925baf969e996d9f4dbc0f33da1d02bce59ca5d7e1a0d780d2bebf555d276"
+  },
+  {
+   "file": "S12/Sess02/MI122_annotations.json",
+   "bytes": 33024,
+   "sha256": "a241611d20856940a4279e81f8389c772f314df7ba7206c5159f068b680f18dc"
+  },
+  {
+   "file": "S12/Sess02/MI122_eprime.txt",
+   "bytes": 54288,
+   "sha256": "37046e07d1a05cda865f8aa384fd9d84cff3dd6970dd7e5eb5f1dec08d5c6197"
+  },
+  {
+   "file": "S12/Sess02/MI122_phantom.avi",
+   "bytes": 307575326,
+   "sha256": "dc3da3a78317d099c6a2c2c75edcb90c97aaf5b5f407553429b12a19ec7e2506"
+  },
+  {
+   "file": "S12/Sess02/MI122_phantom.xml",
+   "bytes": 6040534,
+   "sha256": "7345877d9d223608d43be871a885c90a54079212f52d3fd7cc0e8702e7817304"
+  },
+  {
+   "file": "S12/Sess02/MI122_sync.csv",
+   "bytes": 7777322,
+   "sha256": "e0b06691826396f6a1e7883efd071eb559e41a5d22b44ccd05afe17c96f90c43"
+  },
+  {
+   "file": "S12/Sess02/MI122_tobii.csv",
+   "bytes": 40136956,
+   "sha256": "f04df6ac5bb56445d06b8fe13c2ec9aad8d449388b2b565f60074866cda0c848"
+  },
+  {
+   "file": "S12/Sess02/S12_Sess02.xlsx",
+   "bytes": 8418,
+   "sha256": "8e942810bc5fbf2b5a0b604bdaed47bf2f1df6905f500cf35b7e58213fe973af"
+  },
+  {
+   "file": "S12/Sess03/MI123.bdf",
+   "bytes": 82991978,
+   "sha256": "fbb481dae265c77575d06a11c4524bb0bfefdb6e29ae0fcabcfe204b72ebcb48"
+  },
+  {
+   "file": "S12/Sess03/MI123_annotations.json",
+   "bytes": 33018,
+   "sha256": "bad065e9521ea23d0ff2ad40abe874fb99ce273ff5235a72acb092cd2579e0ca"
+  },
+  {
+   "file": "S12/Sess03/MI123_eprime.txt",
+   "bytes": 54294,
+   "sha256": "ea46926b6df198f2f75464080bd8e97cc2559f740dde89154afd1b8a61d8b422"
+  },
+  {
+   "file": "S12/Sess03/MI123_phantom.avi",
+   "bytes": 206523966,
+   "sha256": "9370bef2960975ae299e933f9d6d709eaee2b7f26424bf0131d1b24dc5515a65"
+  },
+  {
+   "file": "S12/Sess03/MI123_phantom.xml",
+   "bytes": 6034414,
+   "sha256": "d1d9e1c47d6d9f0ec35b4bce0f931efc6b3bdce7d4ee915833f459bea8de787a"
+  },
+  {
+   "file": "S12/Sess03/MI123_sync.csv",
+   "bytes": 8551991,
+   "sha256": "7d5e2f4813043f2cdcad0ea2e378831f9a84adf2200405dd7f571d85148a9f7c"
+  },
+  {
+   "file": "S12/Sess03/MI123_tobii.csv",
+   "bytes": 41397711,
+   "sha256": "9bc0ad9ef1e2b4898033da7d64dc34d6a69ace1141f3e70e5932d0f003bf3020"
+  },
+  {
+   "file": "S12/Sess03/S12_Sess03.xlsx",
+   "bytes": 8413,
+   "sha256": "1e86b377656bf1402731d04ea0e2fef18d3cdc7a6f3eb5760fce0ae8a4045a0a"
+  },
+  {
+   "file": "S13/Sess01/MI131.bdf",
+   "bytes": 73882598,
+   "sha256": "43c6829e213e2346fde6ed13c77bf4c7a6b9d603608a80211b868bbce41c6f06"
+  },
+  {
+   "file": "S13/Sess01/MI131_annotations.json",
+   "bytes": 33016,
+   "sha256": "ddba6b76ca9f79aedc23e560d35f60eb86a3948b19147323be3fd5911d80c770"
+  },
+  {
+   "file": "S13/Sess01/MI131_eprime.txt",
+   "bytes": 54212,
+   "sha256": "b79eb8829e10bcbccb2afac7b256ac95f6a5bdbef3eb2a3d6f9dfc6fbd07f63f"
+  },
+  {
+   "file": "S13/Sess01/MI131_phantom.avi",
+   "bytes": 223318032,
+   "sha256": "34736680067107ae21a9699e53633b3522ef766cdda065b08a6fc5e9bfa4f55c"
+  },
+  {
+   "file": "S13/Sess01/MI131_phantom.xml",
+   "bytes": 6092734,
+   "sha256": "c3ea672370674b9f7bca2a5c4f829d9b4e55add73841db72550583c12042e9bf"
+  },
+  {
+   "file": "S13/Sess01/MI131_sync.csv",
+   "bytes": 7842665,
+   "sha256": "3bae980b729c9b78d1842c6d9f7f020898a0ac6cde8c823888ce3e84a7558c96"
+  },
+  {
+   "file": "S13/Sess01/MI131_tobii.csv",
+   "bytes": 27782587,
+   "sha256": "89f4d648c34b7e519e1444d370851c8278a0fa5bb7f5d8dd994dc9b523d8a6db"
+  },
+  {
+   "file": "S13/Sess01/S13_Sess01.xlsx",
+   "bytes": 8408,
+   "sha256": "9ef1248f35060577b156ee4eea9a4deffe3ee2b059c5edd84c48232712b24ec6"
+  },
+  {
+   "file": "S13/Sess02/MI132.bdf",
+   "bytes": 83982128,
+   "sha256": "785b8dd30dfc32048f6a9d20390a49292188341bcf60a9f7744d8fc4b0288823"
+  },
+  {
+   "file": "S13/Sess02/MI132_annotations.json",
+   "bytes": 33031,
+   "sha256": "db164e60d7820d0feaf2284bc3fb1ad363d8ae111de1b2e553a099aefa7eae79"
+  },
+  {
+   "file": "S13/Sess02/MI132_eprime.txt",
+   "bytes": 54212,
+   "sha256": "d6f200a40e538a6d67bbdda54aa348a69d06a99936146fa892242c3bef5d8789"
+  },
+  {
+   "file": "S13/Sess02/MI132_phantom.avi",
+   "bytes": 211194784,
+   "sha256": "c3b474636c6164608229354cc89bf458137df2b749d8d14f9b527189ed7be6a8"
+  },
+  {
+   "file": "S13/Sess02/MI132_phantom.xml",
+   "bytes": 6157654,
+   "sha256": "876a465bd2b6f72fbe7c6256dcb2b9859c991a8a4b8a4de0a7725a5ab9db9ca0"
+  },
+  {
+   "file": "S13/Sess02/MI132_sync.csv",
+   "bytes": 8681300,
+   "sha256": "ba35a23c867006cae878719d3c54d275ac4c614c810f7baaf60a72c4e64b7035"
+  },
+  {
+   "file": "S13/Sess02/MI132_tobii.csv",
+   "bytes": 39012679,
+   "sha256": "18717dd98b929fe3e790389c5e5f99ad2dc61eb3fb20d447351d2c998363580d"
+  },
+  {
+   "file": "S13/Sess02/S13_Sess02.xlsx",
+   "bytes": 8376,
+   "sha256": "6036fcd64ab9b1e9fb676820a5bfdc9181b98bda7554f316e3824c494b35bd5d"
+  },
+  {
+   "file": "S13/Sess03/MI133.bdf",
+   "bytes": 84180158,
+   "sha256": "2ebb702e70c85ac3530e312797132fb9601c4e482eb3a569c95c75a92ee62889"
+  },
+  {
+   "file": "S13/Sess03/MI133_annotations.json",
+   "bytes": 33013,
+   "sha256": "35d6de693d1d7c6667798513342a5a0533fa0c348a97586b7d51967f32f91522"
+  },
+  {
+   "file": "S13/Sess03/MI133_eprime.txt",
+   "bytes": 54208,
+   "sha256": "07783280f0cf509577c6044f0c4d395275c033468d6bed79ed28d8480d11a876"
+  },
+  {
+   "file": "S13/Sess03/MI133_phantom.avi",
+   "bytes": 363158134,
+   "sha256": "15d92e097d26c195506d6683c69d127439f68c0f43955a964dbddb8ad421f3fa"
+  },
+  {
+   "file": "S13/Sess03/MI133_phantom.xml",
+   "bytes": 6210934,
+   "sha256": "bb3b088140942a26cc95804db1206c6be62853a2c280742cc82038f6c28a1db1"
+  },
+  {
+   "file": "S13/Sess03/MI133_sync.csv",
+   "bytes": 8710693,
+   "sha256": "fc05448f913485ab3ce5020d3958c503c1726bfdee45304d5a6fef2f7f2b3d4e"
+  },
+  {
+   "file": "S13/Sess03/MI133_tobii.csv",
+   "bytes": 36763232,
+   "sha256": "377ee68f5015e2b6ac2ae084e5da5e9a1a6805a348cd86cebe2a165c869b10b9"
+  },
+  {
+   "file": "S13/Sess03/S13_Sess03.xlsx",
+   "bytes": 8418,
+   "sha256": "a8ea8d5d90b65a0414c268aa2b8b6a566d22161857e3fb333f6b338a0c7690cd"
+  },
+  {
+   "file": "S14/Sess01/MI141.bdf",
+   "bytes": 73090478,
+   "sha256": "d33b3da18919e28fc2600b0ef1285c8101342445dac7cda15fa0310b05159f0a"
+  },
+  {
+   "file": "S14/Sess01/MI141_annotations.json",
+   "bytes": 33034,
+   "sha256": "fe0f4c9cdb11b2bcfa271486956495ad86289b937a6d2eaedec532d28c863791"
+  },
+  {
+   "file": "S14/Sess01/MI141_eprime.txt",
+   "bytes": 54284,
+   "sha256": "f1f621e8c6ee1f258ad88c980d48fc301eb5cff7a32c87ecb8395e525868f4b9"
+  },
+  {
+   "file": "S14/Sess01/MI141_phantom.xml",
+   "bytes": 6026974,
+   "sha256": "dab5c2351305e4e70e759ef105f03661f56c5785d899b4831ad029d17f60e442"
+  },
+  {
+   "file": "S14/Sess01/MI141_sync.csv",
+   "bytes": 7768418,
+   "sha256": "f701aaca1c43dd91f99b676a08ae79a4dc923b4f1d2b73ce2e00d5380b3878bc"
+  },
+  {
+   "file": "S14/Sess01/MI141_tobii.csv",
+   "bytes": 37872792,
+   "sha256": "8ae958052e2434dc1f6f687809214194fd0ac1df7625ad08d6c04024fffd9feb"
+  },
+  {
+   "file": "S14/Sess01/S14_Sess01.xlsx",
+   "bytes": 8371,
+   "sha256": "643766c4d21943b123b0c0e87362dbd70392cdbd5abd1f527fa4a150584f64ee"
+  },
+  {
+   "file": "S14/Sess02/MI142.bdf",
+   "bytes": 86160458,
+   "sha256": "3088e0d8852dc7eec0d17d98f33123c831c23fe1bab2a01de053e9e7ccc3754f"
+  },
+  {
+   "file": "S14/Sess02/MI142_annotations.json",
+   "bytes": 33028,
+   "sha256": "2a464b1c33a69827df1967d4575e104eb944ed25e50dc815a44580ae29ab02d3"
+  },
+  {
+   "file": "S14/Sess02/MI142_eprime.txt",
+   "bytes": 54292,
+   "sha256": "40070f466ea20f710e5354fb2a63413bd1d20037d93326fce0e33ac86a85a7b8"
+  },
+  {
+   "file": "S14/Sess02/MI142_phantom.avi",
+   "bytes": 259954800,
+   "sha256": "330c2ed7a83353a2ea8d450a37dcf3ad5a6d3d3f424966f46f96b9bb892e73a9"
+  },
+  {
+   "file": "S14/Sess02/MI142_phantom.xml",
+   "bytes": 6120694,
+   "sha256": "dbe138f964671e182933086cc096993ddcfedce4520df4e2207edcc011239e9c"
+  },
+  {
+   "file": "S14/Sess02/MI142_sync.csv",
+   "bytes": 8833770,
+   "sha256": "4cd338811fc2ded4b8a020cd5dca8b8f4c4360165794fa81a5889a1c81fcab47"
+  },
+  {
+   "file": "S14/Sess02/MI142_tobii.csv",
+   "bytes": 38371739,
+   "sha256": "b3d31e07e55bb15403b0a77162a8c816f196ecb2309d4a98b074b69777cb63be"
+  },
+  {
+   "file": "S14/Sess02/S14_Sess02.xlsx",
+   "bytes": 8423,
+   "sha256": "ea1c5a3d6e9d5b893df9ebad2ea8ad821357009bf76308a5dba1d3461cf36849"
+  },
+  {
+   "file": "S14/Sess03/MI143.bdf",
+   "bytes": 82595918,
+   "sha256": "917bb8b1f76967af329c4104fb12caedd7c4343f5984a264b886d19c755b2b2f"
+  },
+  {
+   "file": "S14/Sess03/MI143_annotations.json",
+   "bytes": 33035,
+   "sha256": "69749cb2eadbf2d1331a5cd121644e7ba3d34eb4dcfca412d42a698bc2759612"
+  },
+  {
+   "file": "S14/Sess03/MI143_eprime.txt",
+   "bytes": 54296,
+   "sha256": "a3e09943d8cbfa262e2843518f8f25c2eaa58dcb32c585d7f21778f0327c4003"
+  },
+  {
+   "file": "S14/Sess03/MI143_phantom.avi",
+   "bytes": 409022118,
+   "sha256": "6ab7d2c873f9995f5d6071a22b88d204df02b5a3bf215c98a4fbb5c3608e4fde"
+  },
+  {
+   "file": "S14/Sess03/MI143_phantom.xml",
+   "bytes": 6143612,
+   "sha256": "6815958e84342588434b6e3ac920d88732f84e909879778263a7ca04afc7ed46"
+  },
+  {
+   "file": "S14/Sess03/MI143_sync.csv",
+   "bytes": 8565792,
+   "sha256": "a5ecead83f1a6bb194a485666ad6c3ff30a2aee958655ec76e5b0faac3ac2888"
+  },
+  {
+   "file": "S14/Sess03/MI143_tobii.csv",
+   "bytes": 37769327,
+   "sha256": "aced7480a670092a4995f9419d4248f8f2cf39e604643a9db313542e2da42c88"
+  },
+  {
+   "file": "S14/Sess03/S14_Sess03.xlsx",
+   "bytes": 8467,
+   "sha256": "8dbd0e2fd28a7164eb90c6eac557f17929a992376c1d118b2a7666bd22592b02"
+  },
+  {
+   "file": "S15/Sess01/MI151.bdf",
+   "bytes": 73090478,
+   "sha256": "102220f8fced9897b74a49098b6c27483f276ca2f3839d81074e744ec507b187"
+  },
+  {
+   "file": "S15/Sess01/MI151_annotations.json",
+   "bytes": 33011,
+   "sha256": "46dd6f3e6968de165829c0089f42d41786032e2879f55f21e8ec9258506025c3"
+  },
+  {
+   "file": "S15/Sess01/MI151_eprime.txt",
+   "bytes": 54284,
+   "sha256": "242ce7047fef0480be6a563fe18887377a83cf03f7f83c1bfbe992c700f023df"
+  },
+  {
+   "file": "S15/Sess01/MI151_phantom.avi",
+   "bytes": 223575104,
+   "sha256": "cbd7e0cdb4bc1a1007fa037e783fea17eb976ac8d2ea401ba49a44d1760b208d"
+  },
+  {
+   "file": "S15/Sess01/MI151_phantom.xml",
+   "bytes": 6055174,
+   "sha256": "d1450286c149c7db1b35217a26a926aefcb99d8b50d749cfd20fbeba165396f4"
+  },
+  {
+   "file": "S15/Sess01/MI151_sync.csv",
+   "bytes": 7766216,
+   "sha256": "803e3326fe945b0c316e0fa9542f13373650f9d59fd6084552965e8d38ec7b4d"
+  },
+  {
+   "file": "S15/Sess01/MI151_tobii.csv",
+   "bytes": 31013502,
+   "sha256": "4b8011c695f0056cf90cc78298d3759bcede1ffa3f32d4540e140290e6f373e4"
+  },
+  {
+   "file": "S15/Sess01/S15_Sess01.xlsx",
+   "bytes": 8440,
+   "sha256": "6be6a04ea543b1e0c9697a276f7b455076b96bc42a561e09f21fb4d92fbcb211"
+  },
+  {
+   "file": "S15/Sess02/MI152.bdf",
+   "bytes": 81605768,
+   "sha256": "9dd562ec04c97f23e334fa5623d1c23514c7251e4f536c6002afdcf65b59a7cd"
+  },
+  {
+   "file": "S15/Sess02/MI152_annotations.json",
+   "bytes": 33020,
+   "sha256": "46e8748b720cb392946c97aa9aa77392e74b8023dc4538f47834de987cb015ce"
+  },
+  {
+   "file": "S15/Sess02/MI152_eprime.txt",
+   "bytes": 54206,
+   "sha256": "53d155ea5fd1381b6ad6837f63b3f237f2412e9305c2dfc73cae42dd010bd39d"
+  },
+  {
+   "file": "S15/Sess02/MI152_phantom.avi",
+   "bytes": 300871448,
+   "sha256": "c93925c8ee97fd201246fc7fd52e2a4016389f222af16186c140f1163ce2fc93"
+  },
+  {
+   "file": "S15/Sess02/MI152_phantom.xml",
+   "bytes": 6050253,
+   "sha256": "6ff2dd61714ca23ae19ec45033fd6f112e90902db0461d9d3bf59069b7c8f239"
+  },
+  {
+   "file": "S15/Sess02/MI152_sync.csv",
+   "bytes": 8453606,
+   "sha256": "db16ba707ab719e7cfe033f1b689382069860dcde61fb60483e70932f744187c"
+  },
+  {
+   "file": "S15/Sess02/MI152_tobii.csv",
+   "bytes": 33605143,
+   "sha256": "f21605030b4080635737e98f92f6731e7510c52e685845275e190ed71a429d4d"
+  },
+  {
+   "file": "S15/Sess02/S15_Sess02.xlsx",
+   "bytes": 8423,
+   "sha256": "eaed54c751a924fcea05926bc7471a16c85107b4ffffdee2d517e6788df3e00d"
+  },
+  {
+   "file": "S15/Sess03/MI153.bdf",
+   "bytes": 81605768,
+   "sha256": "d6e743280a15436a861ef4782392cd4ee34f1aa36b84152559af7576137a8cb2"
+  },
+  {
+   "file": "S15/Sess03/MI153_annotations.json",
+   "bytes": 33009,
+   "sha256": "71233df740a2ebafd6288d808cf2515d219f41047fdc24bd170569befb03e352"
+  },
+  {
+   "file": "S15/Sess03/MI153_eprime.txt",
+   "bytes": 54292,
+   "sha256": "4708b8ac72625a28c6478d14ce6da1f94caf7d3da72e71313e457d84ec23046d"
+  },
+  {
+   "file": "S15/Sess03/MI153_phantom.avi",
+   "bytes": 247408616,
+   "sha256": "b273e7b14d7eaf3ba6f9e42db66586afe2f5e92bb6a91ba70dc94cc70777b874"
+  },
+  {
+   "file": "S15/Sess03/MI153_phantom.xml",
+   "bytes": 6051694,
+   "sha256": "d3603ec3e1b6c2ee230792392d0f55d1e6c8fa5b689671a67da639133a309156"
+  },
+  {
+   "file": "S15/Sess03/MI153_sync.csv",
+   "bytes": 8450420,
+   "sha256": "cf676aad5f6c213f65020b415e2aee34d2a5bf3a6c1b42e9538365fb45b1fc5a"
+  },
+  {
+   "file": "S15/Sess03/MI153_tobii.csv",
+   "bytes": 37708232,
+   "sha256": "04cb2dfbc61e2c169d8947c844899c2e3d1d2f2dcd96a8feafb7bf63286d3494"
+  },
+  {
+   "file": "S15/Sess03/S15_Sess03.xlsx",
+   "bytes": 8410,
+   "sha256": "c5a470bdc060c03dd5a99fdf8c5ba6b72e05d9615a86b79f9a96f969b86bbf44"
+  },
+  {
+   "file": "S16/Sess01/MI161.bdf",
+   "bytes": 73684568,
+   "sha256": "2a09b26d27e30c3d9c9bd2e65c8ae6017edde8dd3ad7ee35829d37652ec24b34"
+  },
+  {
+   "file": "S16/Sess01/MI161_annotations.json",
+   "bytes": 33012,
+   "sha256": "7afa860d89d4dbcec93bca7d11dc78c401e7a1ee53c88954bb66f80416d90d8f"
+  },
+  {
+   "file": "S16/Sess01/MI161_eprime.txt",
+   "bytes": 54204,
+   "sha256": "fbf3abcb5ca40c8c90f10174282645c990f01e435a17d33cb939d4f58661a730"
+  },
+  {
+   "file": "S16/Sess01/MI161_phantom.avi",
+   "bytes": 290204728,
+   "sha256": "f664c5b70a66ee8d0f388dc855540f42dd0e04158b6ecf5fd33b59c4ea7d5d3e"
+  },
+  {
+   "file": "S16/Sess01/MI161_phantom.xml",
+   "bytes": 6032973,
+   "sha256": "e20d6273f463f3f8ef33ef93c06d81a7ed0027e05f2ab3285f3af727550139e2"
+  },
+  {
+   "file": "S16/Sess01/MI161_sync.csv",
+   "bytes": 7810181,
+   "sha256": "f27e75c2d60eca3e3be5b9bad0cf8b54b0801d19bf6345a8b679d98494480768"
+  },
+  {
+   "file": "S16/Sess01/MI161_tobii.csv",
+   "bytes": 37422750,
+   "sha256": "69fecf50468a5ff3c45480d550a822d1a2385ba8bac88badda6111cabed8441d"
+  },
+  {
+   "file": "S16/Sess01/S16_Sess01.xlsx",
+   "bytes": 8422,
+   "sha256": "82f3491793c7199c9be9401ee435bd829ddb81420c98c07bc261901f5e9cc3e9"
+  },
+  {
+   "file": "S16/Sess02/MI162.bdf",
+   "bytes": 83982128,
+   "sha256": "0d69303e7d147f108290454abe6dbc0f3b621c360ee21e8f3ee474b906246599"
+  },
+  {
+   "file": "S16/Sess02/MI162_annotations.json",
+   "bytes": 33027,
+   "sha256": "44af8adfe3f54669d5c4a8479104933b7251a26f667d180cfc4055a4c40e41f7"
+  },
+  {
+   "file": "S16/Sess02/MI162_eprime.txt",
+   "bytes": 54288,
+   "sha256": "6ebe248ca2cdd9773615631eaa9577278bdb1894d5868b4daa8d57921b7ea08b"
+  },
+  {
+   "file": "S16/Sess02/MI162_phantom.avi",
+   "bytes": 84293496,
+   "sha256": "94511b3b853333fac92b3db88e76c5bbd376c616254223702cab189e5f1c2ac1"
+  },
+  {
+   "file": "S16/Sess02/MI162_phantom.xml",
+   "bytes": 6249574,
+   "sha256": "b0f0d73a97bae2eac042a05a9854ee8e105743a982dd237de4f90567ab378bff"
+  },
+  {
+   "file": "S16/Sess02/MI162_sync.csv",
+   "bytes": 8699209,
+   "sha256": "6671a1fe57312c8db023256385cf46f9b7fa342023f36a59d6925c3673780557"
+  },
+  {
+   "file": "S16/Sess02/MI162_tobii.csv",
+   "bytes": 39299762,
+   "sha256": "fdb7ab0f396323cfd99996818e331d2ef4a6c1134454dfc47f25b255942ab5ef"
+  },
+  {
+   "file": "S16/Sess02/S16_Sess02.xlsx",
+   "bytes": 8411,
+   "sha256": "d20516a4a46219a2d7d6f881b0d4b4fcb46e5f5419f239b1dbbafe1f676b0f17"
+  },
+  {
+   "file": "S16/Sess03/MI163.bdf",
+   "bytes": 82397888,
+   "sha256": "2d1fd89e5831e9f70d7401b617fe88d122b323f4ec90abf5491761f53938735d"
+  },
+  {
+   "file": "S16/Sess03/MI163_annotations.json",
+   "bytes": 33027,
+   "sha256": "2258a550ceccca00c52af715b5026e0886221ab28a42f1b7863390a5fa0d439d"
+  },
+  {
+   "file": "S16/Sess03/MI163_eprime.txt",
+   "bytes": 54286,
+   "sha256": "a1fdf0b628055d5af81fd33ac56de9d8e44802b717bdae40a336a4341b4cdcb8"
+  },
+  {
+   "file": "S16/Sess03/MI163_phantom.avi",
+   "bytes": 390693562,
+   "sha256": "c7a75bfe475a8bf5624fdc74809621c418ad1c1e8fa938d538431829fa72ff87"
+  },
+  {
+   "file": "S16/Sess03/MI163_phantom.xml",
+   "bytes": 6072932,
+   "sha256": "02bf64fa134d8463c9e7dd8148fc8e2e85af96dceb08fef451395f3f13118bc3"
+  },
+  {
+   "file": "S16/Sess03/MI163_sync.csv",
+   "bytes": 8527471,
+   "sha256": "995dd2af289b6a952914adf0f3a2a0e85bd20ef75f4fda55ebdbef6578b0eb14"
+  },
+  {
+   "file": "S16/Sess03/MI163_tobii.csv",
+   "bytes": 35344396,
+   "sha256": "05b68e882e1c6ae18e619cd1a3ecd954e27f092b0e05a6b443972262156740ab"
+  },
+  {
+   "file": "S16/Sess03/S16_Sess03.xlsx",
+   "bytes": 8412,
+   "sha256": "abf6945c0d6916d19f7fd43bc97920a6ddb2f963856e42389eecbb4d3ea6d9cb"
+  },
+  {
+   "file": "S17/Sess01/MI171bis.bdf",
+   "bytes": 82199858,
+   "sha256": "8f069d450bf3c0c2903ad03b97d9c0b261b7efd542d49ffb3baa207996d486e7"
+  },
+  {
+   "file": "S17/Sess01/MI171bis_annotations.json",
+   "bytes": 33019,
+   "sha256": "ee4c4a968e8cd784062f9d7c9193f3ef52cf8e89f3f7ed1757cbaf454c5f546f"
+  },
+  {
+   "file": "S17/Sess01/MI171bis_eprime.txt",
+   "bytes": 54284,
+   "sha256": "1eb51f2a72e21d57582c4aa48d620b92b62aa8478dc27d254c446c4f71b0852b"
+  },
+  {
+   "file": "S17/Sess01/MI171bis_phantom.avi",
+   "bytes": 335841032,
+   "sha256": "64bd9cacb8d386668e12b35ef70bd56a33f95c5cbc6493d57f5ac11d3d16a123"
+  },
+  {
+   "file": "S17/Sess01/MI171bis_phantom.xml",
+   "bytes": 6266014,
+   "sha256": "f44434634ed08e660739690d8bc3b7f337079d634af73ae0eec676de3635b5a9"
+  },
+  {
+   "file": "S17/Sess01/MI171bis_sync.csv",
+   "bytes": 8563223,
+   "sha256": "83975d1634947821430eb5417c505ec3e96b3b981276a2af583f10144b866f26"
+  },
+  {
+   "file": "S17/Sess01/MI171bis_tobii.csv",
+   "bytes": 35541014,
+   "sha256": "e13cd0c5a279c12022044756183d68e40c7e1c7d169c4607325fdf7c061b6bba"
+  },
+  {
+   "file": "S17/Sess01/S17_Sess01.xlsx",
+   "bytes": 8478,
+   "sha256": "92db45e65805acc37909e6a534c4c563896ba62904d02d1f9eb31249ea2b728f"
+  },
+  {
+   "file": "S17/Sess02/MI172.bdf",
+   "bytes": 83586068,
+   "sha256": "d2cd41a41e1b3a5095a416bc472d270351862c17c48e18ae2345dfdb4ac66859"
+  },
+  {
+   "file": "S17/Sess02/MI172_annotations.json",
+   "bytes": 33006,
+   "sha256": "7a515342f3936b5acd932f412e861c8bfef576ac734cf67a9ecbfe374261d021"
+  },
+  {
+   "file": "S17/Sess02/MI172_eprime.txt",
+   "bytes": 54300,
+   "sha256": "5eca98f0357fcfbc6b173d2d119a9c1fe3f8ca75081b7f9009d4c7bf6a809834"
+  },
+  {
+   "file": "S17/Sess02/MI172_phantom.avi",
+   "bytes": 237226012,
+   "sha256": "01aca22b55cdf13695b37245019f27a0b2582a5c049de3c31df102138df81304"
+  },
+  {
+   "file": "S17/Sess02/MI172_phantom.xml",
+   "bytes": 6093814,
+   "sha256": "2690756bd161bdaf256c1fa0d437329448f6d53a1906dcd525d713e6a87d00df"
+  },
+  {
+   "file": "S17/Sess02/MI172_sync.csv",
+   "bytes": 8623133,
+   "sha256": "e47cf303fbcf37687e0d78c9ddfc4ef1d291b5c8cadbf09f40831c2cff827556"
+  },
+  {
+   "file": "S17/Sess02/MI172_tobii.csv",
+   "bytes": 37954596,
+   "sha256": "b2da66a0fba85476babdd19e1d32da428680143218566618abf84dbf33b55f64"
+  },
+  {
+   "file": "S17/Sess02/S17_Sess02.xlsx",
+   "bytes": 8359,
+   "sha256": "4dea3745f86ef39fca81d0018a94c7c1c932020047fcff7601a82c4eab4bfa40"
+  },
+  {
+   "file": "S17/Sess03/MI173.bdf",
+   "bytes": 84774248,
+   "sha256": "7161ad12f4369b0fbee92e92e30f1ee18806b273a92ea529c7f70da59683e234"
+  },
+  {
+   "file": "S17/Sess03/MI173_annotations.json",
+   "bytes": 33015,
+   "sha256": "baba422ee3cb786f5fe332d605114fd7f2895cc7757fc4341a254d427161c5d0"
+  },
+  {
+   "file": "S17/Sess03/MI173_eprime.txt",
+   "bytes": 54294,
+   "sha256": "2add58875a4063d09a93b60a32825ea032a30524bcf4848ed4db9d99536fbdfc"
+  },
+  {
+   "file": "S17/Sess03/MI173_phantom.avi",
+   "bytes": 267680704,
+   "sha256": "bb8aa4da253cc47f76368a4c0b1283797a27798bf21cb2c7af50b578034db14c"
+  },
+  {
+   "file": "S17/Sess03/MI173_phantom.xml",
+   "bytes": 6154534,
+   "sha256": "fa235148c6add763fda40661e9c6f6fd1b5b6fbadbd50c860fb3d7a9400f90d6"
+  },
+  {
+   "file": "S17/Sess03/MI173_sync.csv",
+   "bytes": 8736224,
+   "sha256": "bc459f81cb24616635536cb362e4ae8f72f59804c8ff7d1203d35529d6361b97"
+  },
+  {
+   "file": "S17/Sess03/MI173_tobii.csv",
+   "bytes": 40506055,
+   "sha256": "2d0581ce02090f02678063a11038a619dc142ae716cd5df71dcd94f37481e14a"
+  },
+  {
+   "file": "S17/Sess03/S17_Sess03.xlsx",
+   "bytes": 8404,
+   "sha256": "a138759da802855b68de1aeaa6e65d760ed5b656e7acc34e3e8b0815d1a6aed9"
+  },
+  {
+   "file": "S18/Sess01/MI181.bdf",
+   "bytes": 81407738,
+   "sha256": "d21b004aa6cd1a8af3453ba3184c5726f002f89a91ecbb90630139ce90a476bc"
+  },
+  {
+   "file": "S18/Sess01/MI181_annotations.json",
+   "bytes": 33026,
+   "sha256": "5216b875aff92fd05d035773ad4eea2a25de4cf3cad02424490ae28123218da7"
+  },
+  {
+   "file": "S18/Sess01/MI181_eprime.txt",
+   "bytes": 54290,
+   "sha256": "5c2fae782bf1a9b4ce05cb9cec4e7933654e7fed795834d9fc89c5dce78cd80d"
+  },
+  {
+   "file": "S18/Sess01/MI181_phantom.avi",
+   "bytes": 244428844,
+   "sha256": "fb48a10bf58dd0f35e720a3730eb40b4e00aee094254dd0656b4196513373cd6"
+  },
+  {
+   "file": "S18/Sess01/MI181_phantom.xml",
+   "bytes": 6053134,
+   "sha256": "5237d9cf010e09740dd29bfe94a8855415922968123fdb1fedd81c928d7ae6c4"
+  },
+  {
+   "file": "S18/Sess01/MI181_sync.csv",
+   "bytes": 8431573,
+   "sha256": "b50cca7c0f812b81224129b6ff1d22b5d6e01f7a298109c4952840a50dd935fe"
+  },
+  {
+   "file": "S18/Sess01/MI181_tobii.csv",
+   "bytes": 39398672,
+   "sha256": "72600bcc3c5bf46a37485fc41a27d51e1cbf4578cc13abb51d5f04989326c6d6"
+  },
+  {
+   "file": "S18/Sess01/S18_Sess01.xlsx",
+   "bytes": 8414,
+   "sha256": "f2dbc047d65194229cd475f799dcf3888669d978b05cbaae9f9a448806f4d1d7"
+  },
+  {
+   "file": "S18/Sess02/MI182.bdf",
+   "bytes": 81605768,
+   "sha256": "b176e3e1e42d5c531f9310cd8c7f9a64c316c414dedb337a6ee791ee6a2d7c8c"
+  },
+  {
+   "file": "S18/Sess02/MI182_annotations.json",
+   "bytes": 32991,
+   "sha256": "3cb5d19a21d76cf78b72b956a12297af16229b81c4eaa9113894282eb5c431b2"
+  },
+  {
+   "file": "S18/Sess02/MI182_eprime.txt",
+   "bytes": 54288,
+   "sha256": "5e9f238db09833ab5c4a057e62929fed19f3ab077aaebba88483df5d67b7c289"
+  },
+  {
+   "file": "S18/Sess02/MI182_phantom.avi",
+   "bytes": 263925084,
+   "sha256": "9621ed88e50a72cfd02981cd8dd99ba3ba09735bc98a4c840cae2fb764e81ba5"
+  },
+  {
+   "file": "S18/Sess02/MI182_phantom.xml",
+   "bytes": 6107734,
+   "sha256": "57f0e5a42aa68c8104b19ced4f2c06a513f359b1e838ae82fcaebf52804e867b"
+  },
+  {
+   "file": "S18/Sess02/MI182_sync.csv",
+   "bytes": 8472149,
+   "sha256": "7a17283d4de5467a3e3378ee2ac221acacf45a3de606a8685d095c998d609530"
+  },
+  {
+   "file": "S18/Sess02/MI182_tobii.csv",
+   "bytes": 40380699,
+   "sha256": "605475376dd48f67b71fa24d4fee895d609bf8d338e0095fd87bab78cca05656"
+  },
+  {
+   "file": "S18/Sess02/S18_Sess02.xlsx",
+   "bytes": 8432,
+   "sha256": "645d5966f42757be301f6cc973ac5bcde8d9fa2e92dabed9be456eba403d89e1"
+  },
+  {
+   "file": "S18/Sess03/MI183.bdf",
+   "bytes": 85764398,
+   "sha256": "144473360f9a70df0fa729d02c6d2fdc82e7c794ba4fde1b8c725d96a51ae038"
+  },
+  {
+   "file": "S18/Sess03/MI183_annotations.json",
+   "bytes": 33034,
+   "sha256": "fab525d339291df8f5235061d1fd487d52b67167db46c518d3b76c6b0523f82d"
+  },
+  {
+   "file": "S18/Sess03/MI183_eprime.txt",
+   "bytes": 54294,
+   "sha256": "8f8ba4cd244e17e0c817732badab14752187bfeb1df0528b74bb6c19cef74019"
+  },
+  {
+   "file": "S18/Sess03/MI183_phantom.avi",
+   "bytes": 199789476,
+   "sha256": "2cbab79da7e920630b2d992fc1b84630bb4fea36c789debd5ba6161957439af4"
+  },
+  {
+   "file": "S18/Sess03/MI183_phantom.xml",
+   "bytes": 6414454,
+   "sha256": "7afffb125e76b35d3a8c7eb3f1327d773ba5149beacc7ac0a8038e685e197a79"
+  },
+  {
+   "file": "S18/Sess03/MI183_sync.csv",
+   "bytes": 8897432,
+   "sha256": "069ae6160f5b424f5ecf2e6a539f4c9a228f9a26ab3ee7c98c24dd4e49638f56"
+  },
+  {
+   "file": "S18/Sess03/MI183_tobii.csv",
+   "bytes": 41524399,
+   "sha256": "a26d283e703f402f050b8a1843ce2c64f49d2639c2e4cac306c9b9ee23154ac9"
+  },
+  {
+   "file": "S18/Sess03/S18_Sess03.xlsx",
+   "bytes": 8405,
+   "sha256": "8ee8b84455a6c19c56085f3f6d20a77182c5f52251f37feabd8fbb52aaab1ec8"
+  },
+  {
+   "file": "S19/Sess01/MI191.bdf",
+   "bytes": 81803798,
+   "sha256": "7a0a04bf3f0be665009b6cd7d75f935337b5c25e33ec6852fbf47dcb45a9f925"
+  },
+  {
+   "file": "S19/Sess01/MI191_annotations.json",
+   "bytes": 33018,
+   "sha256": "dee27f1611ea3b66318bd3e62449806ad749589f5ebabaf7996e0868b3833953"
+  },
+  {
+   "file": "S19/Sess01/MI191_eprime.txt",
+   "bytes": 54294,
+   "sha256": "194a32174b99444eef36958fdd29ae55987075a1609099c54e363143921e46f5"
+  },
+  {
+   "file": "S19/Sess01/MI191_phantom.avi",
+   "bytes": 254338316,
+   "sha256": "79c784bd0c2e42de9ca4c1236c0c8845692502f9f83c5cdf3acdd3f261bdde91"
+  },
+  {
+   "file": "S19/Sess01/MI191_phantom.xml",
+   "bytes": 6074134,
+   "sha256": "ae96f6f1a9746f4e3f4be3909086a2c00ca2d4a9b00d88f420961224ea480616"
+  },
+  {
+   "file": "S19/Sess01/MI191_sync.csv",
+   "bytes": 8478870,
+   "sha256": "562c210f419281bcae4d9cfc8a5522492d4b35241e61794d90c56990941b313f"
+  },
+  {
+   "file": "S19/Sess01/MI191_tobii.csv",
+   "bytes": 40176322,
+   "sha256": "798e80e4cbc08c39ccabdb33afc94fa0675f23132e917da97c33262d85487cc8"
+  },
+  {
+   "file": "S19/Sess01/S19_Sess01.xlsx",
+   "bytes": 8533,
+   "sha256": "079de0a904a56d3d33a55d6f32f90bdc928ceef01e900afe8003a16aad21880d"
+  },
+  {
+   "file": "S20/Sess01/MI201.bdf",
+   "bytes": 82793948,
+   "sha256": "4134e6038516862933eaaa6e370e7607ebe2f568aeb4e8fc0d1991ac401dd5da"
+  },
+  {
+   "file": "S20/Sess01/MI201_annotations.json",
+   "bytes": 33027,
+   "sha256": "663b42d0cf68c4fa644412df59d7b16b9be1175d0073f4c446b23411a052bfda"
+  },
+  {
+   "file": "S20/Sess01/MI201_eprime.txt",
+   "bytes": 54296,
+   "sha256": "c9d3229822b1407e4dc00ddd411079f4faf8fc029adb68debf5e8c30c7dc7087"
+  },
+  {
+   "file": "S20/Sess01/MI201_phantom.avi",
+   "bytes": 281059194,
+   "sha256": "fff1e74fa1763299943214b8b85b9f022b3fd68f5274a4e757071a7df2702e2b"
+  },
+  {
+   "file": "S20/Sess01/MI201_phantom.xml",
+   "bytes": 6128254,
+   "sha256": "ae988bd68a502b25f03ff51d0d785e2957eb10d6d9d5bd0fe8b6730cc866af16"
+  },
+  {
+   "file": "S20/Sess01/MI201_sync.csv",
+   "bytes": 8568733,
+   "sha256": "46b578a57a5c5893015a645350dd593c2c938bebc9ea23c84bd0e2139dfc9d41"
+  },
+  {
+   "file": "S20/Sess01/MI201_tobii.csv",
+   "bytes": 34885260,
+   "sha256": "c9c7977f566db9906422e48b0d56b7154be09e9116603a838694e1814dddaff3"
+  },
+  {
+   "file": "S20/Sess01/S20_Sess01.xlsx",
+   "bytes": 8378,
+   "sha256": "53e9bb22bec0f7363c1a520fb340927e7e58a2a0e383544fbdba78aaab877a7c"
+  },
+  {
+   "file": "S21/Sess01/MI211.bdf",
+   "bytes": 85368338,
+   "sha256": "6a105023ec8390a7c53dd84ac8808e2823feb433713de3c625b026784f26b65a"
+  },
+  {
+   "file": "S21/Sess01/MI211_annotations.json",
+   "bytes": 33027,
+   "sha256": "6758002637ba680c76a3a43574005f4a2ad7c3a03a11aecda3b4817db35c0ef2"
+  },
+  {
+   "file": "S21/Sess01/MI211_eprime.txt",
+   "bytes": 54298,
+   "sha256": "3bf1e94599e8bff49ba985081653e6a2ee30d1da69debe445673de1f8522b5a4"
+  },
+  {
+   "file": "S21/Sess01/MI211_phantom.avi",
+   "bytes": 224519214,
+   "sha256": "f23eee9c1217e9a3dab7fef3ccf72f6d46db25f31e98fd0a577e444134fa5caf"
+  },
+  {
+   "file": "S21/Sess01/MI211_phantom.xml",
+   "bytes": 6229521,
+   "sha256": "4da46858374e4841a7334a918edadfb3d97b87b56e44684523fb92aa71e5f7c3"
+  },
+  {
+   "file": "S21/Sess01/MI211_sync.csv",
+   "bytes": 8799518,
+   "sha256": "09fb98ac6a5d0d8485405fb5ca2d6fa3292cf23a02ef69eff5a8d66c46108609"
+  },
+  {
+   "file": "S21/Sess01/MI211_tobii.csv",
+   "bytes": 40484567,
+   "sha256": "e643ad6fbf3f99ccce144e77aa4e6a380ab7681f965703cd0360d4001ccccc5a"
+  },
+  {
+   "file": "S21/Sess01/S21_Sess01.xlsx",
+   "bytes": 8382,
+   "sha256": "31425b314107fd6bb1c2fc662c2d3711dd9df47a2c06798d07030e2fc668545c"
+  },
+  {
+   "file": "S22/Sess01/MI221.bdf",
+   "bytes": 83982128,
+   "sha256": "30226801065e5201c4086f62adbd9cf5fcd28ffbfe89a2e49dc1a7bc2675c811"
+  },
+  {
+   "file": "S22/Sess01/MI221_annotations.json",
+   "bytes": 33026,
+   "sha256": "5c9b09febad9475809f42055d1cf6e5c22d78f4699116d53f149e865441bce05"
+  },
+  {
+   "file": "S22/Sess01/MI221_eprime.txt",
+   "bytes": 54300,
+   "sha256": "21653fcecb9fd27b085320337dccb038a3c9a82fd628f547ff78b570ca47d226"
+  },
+  {
+   "file": "S22/Sess01/MI221_phantom.avi",
+   "bytes": 212480048,
+   "sha256": "c6f0aa9e34c5080d71a661e0f77bbd3a781396e444e173424262828ded76d85b"
+  },
+  {
+   "file": "S22/Sess01/MI221_phantom.xml",
+   "bytes": 6156094,
+   "sha256": "a5f8a88f19e3b8e732fea09a65233fb1e03f0ceac81dcf482d909e8c8d89ee07"
+  },
+  {
+   "file": "S22/Sess01/MI221_sync.csv",
+   "bytes": 8681031,
+   "sha256": "59f8314dfbcf1fe9b7975dfa38cf6095927f912c0628d9daf1e5d2c034b4e7a6"
+  },
+  {
+   "file": "S22/Sess01/MI221_tobii.csv",
+   "bytes": 42234595,
+   "sha256": "23af6feaa807d4a6d0d60974605c86d9b27707c5373faf0b5ee47630378f7d30"
+  },
+  {
+   "file": "S22/Sess01/S22_Sess01.xlsx",
+   "bytes": 8399,
+   "sha256": "994c7c3b6b25dbcb293ef161f651c836817e8b526f3e5b59dbe84f18bbe11fe4"
+  },
+  {
+   "file": "S23/Sess01/MI231.bdf",
+   "bytes": 83784098,
+   "sha256": "ecb020dc8add4452a6bac426bfc24234717b1e18cd7c0157be31ab75d1209d97"
+  },
+  {
+   "file": "S23/Sess01/MI231_annotations.json",
+   "bytes": 33004,
+   "sha256": "9b0fac403623ff2d7a7b8904d4ac9336949cdf7223d4ea6993224a7a22cbc38e"
+  },
+  {
+   "file": "S23/Sess01/MI231_eprime.txt",
+   "bytes": 54292,
+   "sha256": "cdefebadccd118d41b2ac5520ca0d1eb9f38cfb35ca346acfc423f82996bbd67"
+  },
+  {
+   "file": "S23/Sess01/MI231_phantom.avi",
+   "bytes": 233498048,
+   "sha256": "74dc7364b7adcd14dae9f842e50ef9f2aa08688a0777a53f3c13320a406634c5"
+  },
+  {
+   "file": "S23/Sess01/MI231_phantom.xml",
+   "bytes": 6095974,
+   "sha256": "f5023d892824b19b9c28b02696f2491aa0e43fcb337750bdc33d31fae39968a7"
+  },
+  {
+   "file": "S23/Sess01/MI231_sync.csv",
+   "bytes": 8640595,
+   "sha256": "0ae5ed46d0d1a7d5e64e6fed3c5cc4049cc1ab3929ced46d5c195db8e3b09d1f"
+  },
+  {
+   "file": "S23/Sess01/MI231_tobii.csv",
+   "bytes": 36019686,
+   "sha256": "c858bdfe20b55b354a498a9053631163cb6b34d81bbe8c29dc94b30ac2cfdd7a"
+  },
+  {
+   "file": "S23/Sess01/S23_Sess01.xlsx",
+   "bytes": 8446,
+   "sha256": "5e2806865bbf69c3c04ed215620b49b846fa66ec645216e81903cb33c4c772ab"
+  },
+  {
+   "file": "S23/Sess02/MI232.bdf",
+   "bytes": 82991978,
+   "sha256": "8421ddbb19f1298f37331a725f93867070cfa9a467dfc883d695690ecf9608e5"
+  },
+  {
+   "file": "S23/Sess02/MI232_annotations.json",
+   "bytes": 33032,
+   "sha256": "29cad47db94d51e3dc239180b0c86fa5fdedd49c4c7cc9c27bdd89fa9f1d3e9e"
+  },
+  {
+   "file": "S23/Sess02/MI232_eprime.txt",
+   "bytes": 54292,
+   "sha256": "d1229d8dce56f6fbd01c03ce7890c862cd7b9ad7c041e9be0b333f5f6c6350fc"
+  },
+  {
+   "file": "S23/Sess02/MI232_phantom.avi",
+   "bytes": 407272260,
+   "sha256": "6f5c850774006ce6344d77705284e667305de6f52078eef5fdb7e390ac8ef9a6"
+  },
+  {
+   "file": "S23/Sess02/MI232_phantom.xml",
+   "bytes": 6141574,
+   "sha256": "42939719dc94a7c568dea62ffba72fbc7e6e78e6153aca909ef3d187ec619a5f"
+  },
+  {
+   "file": "S23/Sess02/MI232_sync.csv",
+   "bytes": 8587146,
+   "sha256": "5be634bf8c7f0153600d476348b2066ddc9765fea3431073153530c506141734"
+  },
+  {
+   "file": "S23/Sess02/MI232_tobii.csv",
+   "bytes": 5835839,
+   "sha256": "c0710a5f0f8dbfd741866261c70216d2ec5dbf2edf87771fc2a65727745235aa"
+  },
+  {
+   "file": "S23/Sess02/S23_Sess02.xlsx",
+   "bytes": 8478,
+   "sha256": "d86b5ff85fc3d48cc0ca2c29a160474a7e128391dcc02d7d74aae718eb7bc7ca"
+  },
+  {
+   "file": "S23/Sess03/MI233.bdf",
+   "bytes": 85368338,
+   "sha256": "d3aadd4f012cc533bb0d3ef647c55a9e276a6aec53dddec34409089fdd817f50"
+  },
+  {
+   "file": "S23/Sess03/MI233_annotations.json",
+   "bytes": 33030,
+   "sha256": "5c604ffb3533a6c7200fea6f19d85ef53c1a0b818fddcb1cfe72482dcaee2b7e"
+  },
+  {
+   "file": "S23/Sess03/MI233_eprime.txt",
+   "bytes": 54292,
+   "sha256": "93a6c8955e683520c3e864b730d97da1c9e41bca2b45a96f6a5247a9ed9a1489"
+  },
+  {
+   "file": "S23/Sess03/MI233_phantom.avi",
+   "bytes": 366574800,
+   "sha256": "b77010a0739ea6a083e37a20b2614fc72995e6ea91e254377a572b3fd0f4b380"
+  },
+  {
+   "file": "S23/Sess03/MI233_phantom.xml",
+   "bytes": 6211172,
+   "sha256": "d38b6d7fbb812b94001b6d3f00cb5b772541440b509e5948477f18f8628d1559"
+  },
+  {
+   "file": "S23/Sess03/MI233_sync.csv",
+   "bytes": 8794705,
+   "sha256": "c00258f76ca532dbc9fd7c8108b606c02b3b6f4e6e4c515fe66e276eca583238"
+  },
+  {
+   "file": "S23/Sess03/MI233_tobii.csv",
+   "bytes": 42377768,
+   "sha256": "b894ee68284b075a89cb2717934615ef1eef2134c93ea207d70ca1b471a7980d"
+  },
+  {
+   "file": "S23/Sess03/S23_Sess03.xlsx",
+   "bytes": 8418,
+   "sha256": "8be81079e91090addc4e1a2d13da63f2f69f63ed0ceb7cb7bd0ab3002c8ed00b"
+  },
+  {
+   "file": "S24/Sess01/MI241.bdf",
+   "bytes": 83784098,
+   "sha256": "cc1a196638cbf630fe9055adb5fd8cbefe11cb5163fc281e8a5637ea4b6f0e4f"
+  },
+  {
+   "file": "S24/Sess01/MI241_annotations.json",
+   "bytes": 33034,
+   "sha256": "42caf9e6889c7c418f112f2ab1c35f0d831f5708827b37ad2dc4d1351007f2b5"
+  },
+  {
+   "file": "S24/Sess01/MI241_eprime.txt",
+   "bytes": 54292,
+   "sha256": "3697a1b8aa42283e748796e527f077152e973d32ac5ece85c01ddbefcf523d64"
+  },
+  {
+   "file": "S24/Sess01/MI241_phantom.avi",
+   "bytes": 210434510,
+   "sha256": "16ae8f4fa26b45c861dd4d19f4a64734dc08981159fbb7777c8e55191939a085"
+  },
+  {
+   "file": "S24/Sess01/MI241_phantom.xml",
+   "bytes": 6085414,
+   "sha256": "9e9691d7f274086d3649f989e362d70a60cd69f748084a294aafe6c874fda6ed"
+  },
+  {
+   "file": "S24/Sess01/MI241_sync.csv",
+   "bytes": 8642962,
+   "sha256": "edb86a7d84606545a73cd042a5c477b28b7e4081f89ba47dc66e7e6e2e7684db"
+  },
+  {
+   "file": "S24/Sess01/MI241_tobii.csv",
+   "bytes": 36557218,
+   "sha256": "037b6fb203aa2afb35d8c74a170e925b044c8cc19a66b27a762d2b65ecc5f919"
+  },
+  {
+   "file": "S24/Sess01/S24_Sess01.xlsx",
+   "bytes": 8356,
+   "sha256": "a5b960253ec399929d32a82c529277dd27b0171e72676e0187129b8a494809dd"
+  },
+  {
+   "file": "S25/Sess01/MI251.bdf",
+   "bytes": 84972278,
+   "sha256": "2cb9e91709d3d45606b7aed9e86d4aa88655e09e2c76dfd79224ede399a8dc5d"
+  },
+  {
+   "file": "S25/Sess01/MI251_annotations.json",
+   "bytes": 33014,
+   "sha256": "512400b0e423334690bf8176bd1cdda412cd3d614343761c2602060b58b85376"
+  },
+  {
+   "file": "S25/Sess01/MI251_eprime.txt",
+   "bytes": 54214,
+   "sha256": "156c5742502a305b22b22aa6fb040cbc5c9b10605f7b613c0975bf92bcc75968"
+  },
+  {
+   "file": "S25/Sess01/MI251_phantom.avi",
+   "bytes": 267387460,
+   "sha256": "7f6aa70d454475728f29cfc0ca8abd67778ce243b561849dcae745b0a685edcb"
+  },
+  {
+   "file": "S25/Sess01/MI251_phantom.xml",
+   "bytes": 6227734,
+   "sha256": "4bed0f657140b9e9fb2ef029bb23339ddb1f58b245cdb83dd0bea8a30ff55a1a"
+  },
+  {
+   "file": "S25/Sess01/MI251_sync.csv",
+   "bytes": 8783220,
+   "sha256": "a368751feae572cefb643e4c4ba7b1b500aec62032d8af6db15f873b460892ec"
+  },
+  {
+   "file": "S25/Sess01/MI251_tobii.csv",
+   "bytes": 40818950,
+   "sha256": "3e65be69cd61e6d43f22da50f1e410232787ed4f2e59379ff806d187ae611785"
+  },
+  {
+   "file": "S25/Sess01/S25_Sess01.xlsx",
+   "bytes": 8447,
+   "sha256": "c969db574fa53350a6791c1dd102249a65bc24f4e12c733f7f16989c236b10a6"
+  },
+  {
+   "file": "S25/Sess02/MI252.bdf",
+   "bytes": 83784098,
+   "sha256": "1441adb81f975344507b5e75a0ebef9a1e258730aa95d78a51daa054ba4e93b5"
+  },
+  {
+   "file": "S25/Sess02/MI252_annotations.json",
+   "bytes": 33033,
+   "sha256": "79aef168a034b2eaca326df2b54033394fa2ccf3471d4fbd787506b19633cb83"
+  },
+  {
+   "file": "S25/Sess02/MI252_eprime.txt",
+   "bytes": 54284,
+   "sha256": "ecde71b6a1c2284ce8326ab28ca048024816eee9efaf0e2ac2dd5f54af6b88c0"
+  },
+  {
+   "file": "S25/Sess02/MI252_phantom.avi",
+   "bytes": 324116956,
+   "sha256": "3523f10d7d5c485e606122d39f4edc1794510e32d2e3a4de27478eb7ddcd1e3e"
+  },
+  {
+   "file": "S25/Sess02/MI252_phantom.xml",
+   "bytes": 6104852,
+   "sha256": "543fd7c5300c8a91ebf2db1604b394d7bab1a838084d67d63f396d2654d9abb8"
+  },
+  {
+   "file": "S25/Sess02/MI252_sync.csv",
+   "bytes": 8646206,
+   "sha256": "3819cb075a2b1722d90ea04ab44058c2a769ff17efd5ce0be2979057f4289d7c"
+  },
+  {
+   "file": "S25/Sess02/MI252_tobii.csv",
+   "bytes": 39480132,
+   "sha256": "f6e9a6357142becb2eab8307a1c8fdfa710ad2fa8a0f764a2af22ccb0a7be847"
+  },
+  {
+   "file": "S25/Sess02/S25_Sess02.xlsx",
+   "bytes": 8383,
+   "sha256": "f6643f3d8218b81e073668d80b69ed4c79dccb628edc392d00f00d6d2519b75f"
+  },
+  {
+   "file": "S26/Sess01/MI261.bdf",
+   "bytes": 84180158,
+   "sha256": "085f2a0699bbef3c36b16a593a7270fdf98844f52b6e91d0a17350d5a61c29f3"
+  },
+  {
+   "file": "S26/Sess01/MI261_annotations.json",
+   "bytes": 33037,
+   "sha256": "f674539313da5d4f1cf61f5a9845b3f3bd86e3b565a1ff48262ef98937e0b12f"
+  },
+  {
+   "file": "S26/Sess01/MI261_eprime.txt",
+   "bytes": 54298,
+   "sha256": "963c4ba14639a8691846004a1b204301bb9b0f7b8c5fa06211fe6188dc5af671"
+  },
+  {
+   "file": "S26/Sess01/MI261_phantom.avi",
+   "bytes": 302779160,
+   "sha256": "4207e7f044fd065242a8f16bd695fd169607ea7307d9b1baba1e54b1d67d6a93"
+  },
+  {
+   "file": "S26/Sess01/MI261_phantom.xml",
+   "bytes": 6173014,
+   "sha256": "258eaba780a6909e7ef1e8a47e6921bf78a370959e9cec39ba358e346b43cc59"
+  },
+  {
+   "file": "S26/Sess01/MI261_sync.csv",
+   "bytes": 8702558,
+   "sha256": "b1e84eb4db34544ace89c35629fe999db7519d9b9ef54bc3709e9a8b08684f8c"
+  },
+  {
+   "file": "S26/Sess01/MI261_tobii.csv",
+   "bytes": 39918153,
+   "sha256": "5a53cdbf92dc0a41b7dae077a5ff5448e5f1b51fa4c866009b775971f97d6a0e"
+  },
+  {
+   "file": "S26/Sess01/S26_Sess01.xlsx",
+   "bytes": 8458,
+   "sha256": "32f72a84654e1becec39113468ca4d6c80ca30f536c8bf33cf46a0705c1a6e20"
+  },
+  {
+   "file": "S27/Sess01/MI271.bdf",
+   "bytes": 82991978,
+   "sha256": "501f785ca91e1b5c4181b1853b87e5cfaa15d1af6aac8b02471a6d0ce2e73728"
+  },
+  {
+   "file": "S27/Sess01/MI271_annotations.json",
+   "bytes": 33034,
+   "sha256": "9f55bced04c5e092d727cdcd59f632e9c55fd57b6e6718f73962312b4c3ec4c4"
+  },
+  {
+   "file": "S27/Sess01/MI271_eprime.txt",
+   "bytes": 54292,
+   "sha256": "a111d27c5f169a56bf6b0b218e041694ed9e1f7925132e23c56e9a65daade4fa"
+  },
+  {
+   "file": "S27/Sess01/MI271_phantom.avi",
+   "bytes": 431529292,
+   "sha256": "80dec4e13c349e6aca2e17eda20670730d717b0eccc074a43bfa5499c68643df"
+  },
+  {
+   "file": "S27/Sess01/MI271_phantom.xml",
+   "bytes": 6145054,
+   "sha256": "3ae9e3564a1f227897147449f0551215701c141fde20038370baf6cbddb61f56"
+  },
+  {
+   "file": "S27/Sess01/MI271_sync.csv",
+   "bytes": 8585962,
+   "sha256": "c474427349a6a0ada2b5766be27a1b43a4a53408a0202b2e0e17b0169f1f4973"
+  },
+  {
+   "file": "S27/Sess01/MI271_tobii.csv",
+   "bytes": 37278378,
+   "sha256": "73ff301c8472771a0a5bb1958942a3f1c252bbc031e55c8f4aaf6a59a4e3de52"
+  },
+  {
+   "file": "S27/Sess01/S27_Sess01.xlsx",
+   "bytes": 8334,
+   "sha256": "5b6d55814a9bffee4aef1f82c825435daa6536ad20db98e0cb09b500869a76ce"
+  },
+  {
+   "file": "S28/Sess01/MI281.bdf",
+   "bytes": 84576218,
+   "sha256": "3c61557253f1d9ba0c00cdee6e579823e57b0f2c6534427bb47f8d8d4fbaba7f"
+  },
+  {
+   "file": "S28/Sess01/MI281_annotations.json",
+   "bytes": 33018,
+   "sha256": "18ec3bb656be244ca7d5fc3a3286eec693d44f7926954fd7e4d091468e19c795"
+  },
+  {
+   "file": "S28/Sess01/MI281_eprime.txt",
+   "bytes": 54204,
+   "sha256": "545d67a2ff8c3368059dfef1f0088ab61fc12ffd8a77f5e60ce0dd0c59eb678e"
+  },
+  {
+   "file": "S28/Sess01/MI281_phantom.avi",
+   "bytes": 418585578,
+   "sha256": "fb5c3f762720ed7caee2b0dfcbb306090c23c2f6dcd9afe68a25ab63df574629"
+  },
+  {
+   "file": "S28/Sess01/MI281_phantom.xml",
+   "bytes": 6206012,
+   "sha256": "106800378397975758a38d869384c4cb05d9001614f607cfed7a4479de0d0e0f"
+  },
+  {
+   "file": "S28/Sess01/MI281_sync.csv",
+   "bytes": 8738229,
+   "sha256": "3b878fb2bac944ddf409ff91d0b6e4447bb2ac49c3c9e33056ac169f52fa1e4d"
+  },
+  {
+   "file": "S28/Sess01/MI281_tobii.csv",
+   "bytes": 41568745,
+   "sha256": "994726da5d8a0aee77c9d2d8cc95e71377057765883b677e7f1e60b6f5cefa31"
+  },
+  {
+   "file": "S28/Sess01/S28_Sess01.xlsx",
+   "bytes": 8451,
+   "sha256": "f6206932a27dd76cd220a3f9af679132df2c39f9b4d466c39f3630450e4c2c69"
+  },
+  {
+   "file": "S29/Sess01/MI291.bdf",
+   "bytes": 86358488,
+   "sha256": "bf4b43f47bb1a2d443c0219579323e8af6f3b888ab0649e980f15c1b4b125e73"
+  },
+  {
+   "file": "S29/Sess01/MI291_annotations.json",
+   "bytes": 33015,
+   "sha256": "8145a246cfdc54d087b38287525c5b2be496bc06988593608d8dab51dd1007b2"
+  },
+  {
+   "file": "S29/Sess01/MI291_eprime.txt",
+   "bytes": 54288,
+   "sha256": "a26b01e60d1b13d69ad8ecf46dd2c51683c1f3d58e165160c1828a4c419f1fc3"
+  },
+  {
+   "file": "S29/Sess01/MI291_phantom.avi",
+   "bytes": 321572870,
+   "sha256": "626f2bb9e1bca9367d17a32064f1a0c2be52e6d0b270dddcbb90b4afaa17e623"
+  },
+  {
+   "file": "S29/Sess01/MI291_phantom.xml",
+   "bytes": 6174931,
+   "sha256": "47535cbd15dce9f9ba519681517ff7a2aef44382e6df2e07f2251c8a4fa4efde"
+  },
+  {
+   "file": "S29/Sess01/MI291_sync.csv",
+   "bytes": 8874875,
+   "sha256": "b0ee7452ab595a32b52c1e2bb4afdf4a89a7662a0528941b4b8868935ed4f031"
+  },
+  {
+   "file": "S29/Sess01/MI291_tobii.csv",
+   "bytes": 38365791,
+   "sha256": "62c4a7099c392597f98e6ecf43eed695f600df33d914239da027339d1bef8a8a"
+  },
+  {
+   "file": "S29/Sess01/S29_Sess01.xlsx",
+   "bytes": 8432,
+   "sha256": "c8635aadbaa32c092ebdc218880a5155abc6be4707811f0dc5d732a865c292a4"
+  },
+  {
+   "file": "S30/Sess01/MI301.bdf",
+   "bytes": 84378188,
+   "sha256": "37732ec830804501657989f42e4da9531b7a5de088d2fa59205964077279e9ed"
+  },
+  {
+   "file": "S30/Sess01/MI301_annotations.json",
+   "bytes": 33033,
+   "sha256": "1051d7bb6716ec8e84257fab9c5c2bae972dd2c09d1ad061c6fa5365047f7d8c"
+  },
+  {
+   "file": "S30/Sess01/MI301_eprime.txt",
+   "bytes": 54204,
+   "sha256": "55f977425caf547e65210d17b2ec3559c9fd74213706230bee0fb478ad2de78d"
+  },
+  {
+   "file": "S30/Sess01/MI301_phantom.avi",
+   "bytes": 411363774,
+   "sha256": "bcabb3ca02119ae14e2f2012f03532fcc303ca1da7372673b44194086f693635"
+  },
+  {
+   "file": "S30/Sess01/MI301_phantom.xml",
+   "bytes": 6180812,
+   "sha256": "85ea73f7c9ac74b193be4206b87cbbbc57d0ec16c3990936e3b00961136e0d92"
+  },
+  {
+   "file": "S30/Sess01/MI301_sync.csv",
+   "bytes": 8714429,
+   "sha256": "d5c891fa2159516c2d84243036e5ab013c8b1a619f9d2220d6675b4f86ee5d83"
+  },
+  {
+   "file": "S30/Sess01/MI301_tobii.csv",
+   "bytes": 37438650,
+   "sha256": "2f73052583b56084ffabf686488b68eb9cb30412a5a2bee5f3f7b8a50178f9bb"
+  },
+  {
+   "file": "S30/Sess01/S30_Sess01.xlsx",
+   "bytes": 8454,
+   "sha256": "40e9c92615ee0b2da860c401eb68c0e57f15c6929a3f2b4ce6d0d4e71e451c13"
+  },
+  {
+   "file": "S31/Sess01/MI311.bdf",
+   "bytes": 82991978,
+   "sha256": "72d56305923251b3e30f8faf851311a522f7a4b1733280361bd51b4ec23ff0bd"
+  },
+  {
+   "file": "S31/Sess01/MI311_annotations.json",
+   "bytes": 33012,
+   "sha256": "41006f87bc0632b63b90acd26afac721e2cede7b55c1eac1bfd5ff4042bd0902"
+  },
+  {
+   "file": "S31/Sess01/MI311_eprime.txt",
+   "bytes": 54288,
+   "sha256": "de5572ec36346a1af264800cbe4027283810409516511519ae594b81c38287d0"
+  },
+  {
+   "file": "S31/Sess01/MI311_phantom.avi",
+   "bytes": 466598150,
+   "sha256": "27959850e1b9c745e35e6abdacf7fd6a929fa0c823d7cc8502dffee6d5292765"
+  },
+  {
+   "file": "S31/Sess01/MI311_phantom.xml",
+   "bytes": 6210332,
+   "sha256": "61f129aa01d5e7d948a0961c3314f69da8817b1ff3be622b28583c89cfe73abc"
+  },
+  {
+   "file": "S31/Sess01/MI311_sync.csv",
+   "bytes": 8614102,
+   "sha256": "0dba9ca2bc0e7c2871e3c47a110987517ccb743a6f6be771e94c034669a8be5b"
+  },
+  {
+   "file": "S31/Sess01/MI311_tobii.csv",
+   "bytes": 39587073,
+   "sha256": "9138c65a9cacb7614fcf91546fbe8a2c150b0dbc1a298767652c2f591f65da9d"
+  },
+  {
+   "file": "S31/Sess01/S31_Sess01.xlsx",
+   "bytes": 8500,
+   "sha256": "3d918548ed91d19bd92b37a90763920aea7666c3d93d55bc5d5dc5c2583ff6c8"
+  }
+ ]
+}
