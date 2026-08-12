@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "enriched",
+  "title": "Guttmann-Flury et al. 2025 (Motor Imagery) — Dataset combining EEG, eye-tracking, and high-speed video for ocular activity analysis across BCI paradigms",
+  "description": "A multimodal brain-computer interface dataset combining EEG, eye-tracking, and high-speed video recordings from 31 healthy participants performing motor imagery tasks. The dataset comprises 2,520 trials across 63 sessions using a 64-channel EEG system with synchronized ocular activity monitoring, designed to investigate the relationship between eye movements and motor imagery performance across multiple BCI paradigms.",
+  "methods_description": "EEG data were acquired at 1000 Hz using a 64-channel Neuroscan Quik-Cap with SynAmps2 amplifier, referenced to the right mastoid with forehead ground. The system recorded 66 total channels (64 EEG + 1 EOG + 1 stim). Participants performed two-class hand motor imagery tasks (left and right hand grasping) with visual rectangle cues, 40 trials per session across up to 3 sessions. Concurrent eye-tracking and high-speed video recordings captured ocular activity during imagery execution.",
+  "license": "CC0",
+  "dataset_type": "derivative",
   "authors": {
     "Eva Guttmann-Flury": {
       "orcid": "0000-0002-8241-1713"
@@ -8,54 +13,6 @@
     "Xinjun Sheng": {},
     "Xiangyang Zhu": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.1038/s41597-025-04861-9",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/nm000265",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000265",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.21105/joss.01896",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "10.1038/s41597-019-0104-8",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    }
-  ],
-  "title": "Guttmann-Flury et al. 2025 (Motor Imagery) — Dataset combining EEG, eye-tracking, and high-speed video for ocular activity analysis across BCI paradigms",
-  "license": "CC0",
-  "dataset_type": "derivative",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "9.9 GB (127 files)"
-  ],
-  "formats": [
-    ".bdf",
-    ".json",
-    ".md",
-    ".tsv",
-    ".yaml",
-    ".yml"
-  ],
-  "description": "A multimodal neuroimaging dataset combining EEG, eye-tracking, and high-speed video recordings from 31 healthy participants performing motor imagery tasks. The dataset comprises 2,520 trials across 63 sessions, with participants imagining left and right hand movements in response to visual cues. Recorded at 1000 Hz using a 64-channel EEG system with standardized electrode montage, this dataset supports brain-computer interface research and analysis of ocular activity patterns during motor imagery paradigms.",
-  "methods_description": "EEG data were acquired using a Neuroscan Quik-Cap 65-channel system with SynAmps2 amplifier at 1000 Hz sampling rate. The montage followed the standard 1005 electrode placement with 64 EEG channels, 1 EOG channel, and 1 stimulus channel. Reference electrode was placed at the right mastoid (M1) with ground at the forehead. Ag/AgCl sensors were used with online high-pass filtering (10 s time constant). Participants performed motor imagery tasks with 2-class hand grasping (left/right hand) across 40 trials per session, with up to 3 sessions per subject. Visual rectangle cues were presented for 2 seconds, followed by 4 seconds of imagery in a synchronous, offline paradigm without feedback.",
   "keywords": [
     {
       "term": "EEG"
@@ -70,7 +27,7 @@
       "term": "eye tracking"
     },
     {
-      "term": "multimodal neuroimaging"
+      "term": "multimodal BCI"
     },
     {
       "term": "motor control"
@@ -79,14 +36,56 @@
       "term": "high-speed video"
     },
     {
-      "term": "video recording"
-    },
-    {
       "term": "ocular activity"
-    },
-    {
-      "term": "eye movements"
     }
   ],
-  "source_hash": "bd9799c77ae786c6034e5c632e900322e1464410a4783d6753eb1adf8ccecfb0"
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-025-04861-9",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000265",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000265",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "36.1 GB (441 files)"
+  ],
+  "formats": [
+    ".avi",
+    ".bdf",
+    ".csv",
+    ".json",
+    ".md",
+    ".tsv",
+    ".txt",
+    ".xlsx",
+    ".xml",
+    ".yaml",
+    ".yml"
+  ],
+  "source_hash": "88242f147e637f230efa7465895cbc425362f4ea90f837411076347c44bf68cc"
 }
