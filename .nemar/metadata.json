@@ -3,7 +3,7 @@
   "pipeline_stage": "enriched",
   "title": "Guttmann-Flury et al. 2025 (Motor Imagery) — Dataset combining EEG, eye-tracking, and high-speed video for ocular activity analysis across BCI paradigms",
   "description": "A multimodal brain-computer interface dataset combining EEG, eye-tracking, and high-speed video recordings from 31 healthy participants performing motor imagery tasks. The dataset comprises 2,520 trials across 63 sessions using a 64-channel EEG system with synchronized ocular activity monitoring, designed to investigate the relationship between eye movements and motor imagery performance across multiple BCI paradigms.",
-  "methods_description": "EEG data were acquired at 1000 Hz using a 64-channel Neuroscan Quik-Cap with SynAmps2 amplifier, referenced to the right mastoid with forehead ground. The system recorded 66 total channels (64 EEG + 1 EOG + 1 stim). Participants performed two-class hand motor imagery tasks (left and right hand grasping) with visual rectangle cues, 40 trials per session across up to 3 sessions. Concurrent eye-tracking and high-speed video recordings captured ocular activity during imagery execution.",
+  "methods_description": "EEG data were acquired at 1000 Hz using a 64-channel Neuroscan Quik-Cap with SynAmps2 amplifier, referenced to the right mastoid with forehead ground. The system recorded 66 total channels (64 EEG + 1 EOG + 1 stim). Concurrent eye-tracking and high-speed video recordings captured ocular activity during motor imagery execution. Participants performed two-class hand motor imagery tasks (left and right hand grasping) with visual rectangle cues, 40 trials per session across up to 3 sessions.",
   "license": "CC0",
   "dataset_type": "derivative",
   "authors": {
@@ -27,16 +27,19 @@
       "term": "eye tracking"
     },
     {
-      "term": "multimodal BCI"
+      "term": "ocular activity"
+    },
+    {
+      "term": "eye movements"
+    },
+    {
+      "term": "multimodal recording"
     },
     {
       "term": "motor control"
     },
     {
       "term": "high-speed video"
-    },
-    {
-      "term": "ocular activity"
     }
   ],
   "related_identifiers": [
@@ -87,5 +90,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "88242f147e637f230efa7465895cbc425362f4ea90f837411076347c44bf68cc"
+  "source_hash": "6f967ad75b55aaa5346206479b91e35a773510a5abebcf2528f0700059f1c3f7"
 }
