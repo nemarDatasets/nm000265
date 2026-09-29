@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Guttmann-Flury et al. 2025 (Motor Imagery) — Dataset combining EEG, eye-tracking, and high-speed video for ocular activity analysis across BCI paradigms",
-  "description": "A multimodal brain-computer interface dataset combining EEG, eye-tracking, and high-speed video recordings from 31 healthy participants performing motor imagery tasks. The dataset comprises 2,520 trials across 63 sessions using a 64-channel EEG system with synchronized ocular activity monitoring, designed to investigate the relationship between eye movements and motor imagery performance across multiple BCI paradigms.",
-  "methods_description": "EEG data were acquired at 1000 Hz using a 64-channel Neuroscan Quik-Cap with SynAmps2 amplifier, referenced to the right mastoid with forehead ground. The system recorded 66 total channels (64 EEG + 1 EOG + 1 stim). Concurrent eye-tracking and high-speed video recordings captured ocular activity during motor imagery execution. Participants performed two-class hand motor imagery tasks (left and right hand grasping) with visual rectangle cues, 40 trials per session across up to 3 sessions.",
+  "description": "This dataset contains 64-channel EEG recorded during a two-class motor imagery task (left vs. right hand grasping) from 31 healthy participants across up to three sessions. It is the motor imagery subset of a multimodal collection that also includes eye-tracking and high-speed video, which were used to analyze ocular activity across BCI paradigms. Each session has 40 cued trials, and the data are organized in BIDS with HED event annotations.",
+  "methods_description": "EEG was recorded with a Neuroscan Quik-Cap (64 EEG channels plus EOG) and a SynAmps2 amplifier at 1000 Hz, referenced to the right mastoid. Participants saw a visual rectangle cue and then performed 4 s of left- or right-hand motor imagery, with 40 trials per session and no feedback.",
   "license": "CC0",
   "dataset_type": "derivative",
   "authors": {
@@ -21,25 +21,23 @@
       "term": "motor imagery"
     },
     {
-      "term": "brain-computer interfaces"
+      "term": "brain-computer interface"
     },
     {
-      "term": "eye tracking"
+      "term": "eye-tracking"
     },
     {
       "term": "ocular activity"
     },
     {
-      "term": "eye movements"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "multimodal recording"
-    },
-    {
-      "term": "motor control"
-    },
-    {
-      "term": "high-speed video"
+      "term": "Imagery, Psychotherapy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D019018"
     }
   ],
   "related_identifiers": [
@@ -75,7 +73,7 @@
     "eeg"
   ],
   "sizes": [
-    "36.1 GB (441 files)"
+    "33.61 GB (441 files)"
   ],
   "formats": [
     ".avi",
